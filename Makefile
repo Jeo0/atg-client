@@ -83,6 +83,7 @@ endif
 
 all: $(EXE)
 	@echo Build complete for $(ECHO_MESSAGE)
+	./example_glfw_opengl3
 
 %.o:%.cpp
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
