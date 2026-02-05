@@ -1,0 +1,8 @@
+
+// sidetrack
++ learn how to load 3d models with opengl (use separate repo)   <- current
+
+// main
+- declutter imgui boiler plates on the main file
+- show triangle with opengl in an imgui "window"??
+- load 3d models 
