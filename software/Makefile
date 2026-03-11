@@ -97,5 +97,8 @@ $(OBJDIR)/%.o: $(IMGUI_DIR)/imgui-backends/%.cpp
 $(EXE): $(OBJS)
 	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
 
+run:
+	./build/example_glfw_opengl3.exe
+
 clean:
 	rm -rf $(EXE) $(OBJDIR)

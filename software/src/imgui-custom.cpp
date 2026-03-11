@@ -10,20 +10,20 @@ static void glfw_error_callback(int error, const char* description)
 }
 
 namespace CustomImGui {
-    GLFWwindow* Init() {
-        glfwSetErrorCallback(glfw_error_callback);
-        if (!glfwInit())
-            return nullptr;
+GLFWwindow* Init() {
+    glfwSetErrorCallback(glfw_error_callback);
+    if (!glfwInit())
+        return nullptr;
 
-        // Decide GL+GLSL versions
-        // GL 3.0 + GLSL 130
-        const char* glsl_version = "#version 140";
-        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
-        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 5);
+    // Decide GL+GLSL versions
+    // GL 3.0 + GLSL 130
+    const char* glsl_version = "#version 460";
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
 
 
-        float main_scale = ImGui_ImplGlfw_GetContentScaleForMonitor(glfwGetPrimaryMonitor()); // Valid on GLFW 3.3+ only
-        GLFWwindow* window = glfwCreateWindow((int)(1280 * main_scale), (int)(800 * main_scale), "ATG", nullptr, nullptr);
+    float main_scale = ImGui_ImplGlfw_GetContentScaleForMonitor(glfwGetPrimaryMonitor()); // Valid on GLFW 3.3+ only
+    GLFWwindow* window = glfwCreateWindow((int)(1280 * main_scale), (int)(800 * main_scale), "ATG", nullptr, nullptr);
 
     // Create window with graphics context
     if (window == nullptr)
@@ -49,7 +49,7 @@ namespace CustomImGui {
     // Setup Platform/Renderer backends
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init(glsl_version);
-    
+
     return window;
 }
 }
