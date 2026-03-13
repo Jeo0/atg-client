@@ -28,7 +28,6 @@
       "vias": true,
       "zones": true
     },
-<<<<<<< HEAD:Kicad Files/shematic1/shematic1.kicad_prl
     "visible_items": [
       "vias",
       "footprint_text",
@@ -52,10 +51,6 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffaf",
-=======
-    "visible_items": [],
-    "visible_layers": "fffffff_ffffffff",
->>>>>>> 4c925c310ef5ede77fa7d254f7a36eddf4ab1997:hardware/Kicad Files/shematic1/shematic1.kicad_prl
     "zone_display_mode": 0
   },
   "git": {
@@ -65,7 +60,7 @@
   },
   "meta": {
     "filename": "shematic1.kicad_prl",
-    "version": 3
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
