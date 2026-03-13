@@ -17,16 +17,17 @@ EXE = build/example_glfw_opengl3
 IMGUI_DIR = ./src
 OBJDIR := $(IMGUI_DIR)/objects
 
-SOURCES = $(IMGUI_DIR)/main.cpp
-SOURCES += $(IMGUI_DIR)/imgui.cpp \
-		   $(IMGUI_DIR)/imgui_demo.cpp \
-		   $(IMGUI_DIR)/imgui_draw.cpp \
-		   $(IMGUI_DIR)/imgui_tables.cpp \
-		   $(IMGUI_DIR)/imgui_widgets.cpp \
-		   $(IMGUI_DIR)/imgui-custom.cpp
+SOURCES = $(IMGUI_DIR)/*.cpp
+# SOURCES = $(IMGUI_DIR)/main.cpp
+# SOURCES += $(IMGUI_DIR)/imgui.cpp \
+		   # $(IMGUI_DIR)/imgui_demo.cpp \
+		   # $(IMGUI_DIR)/imgui_draw.cpp \
+		   # $(IMGUI_DIR)/imgui_tables.cpp \
+		   # $(IMGUI_DIR)/imgui_widgets.cpp \
+		   # $(IMGUI_DIR)/imgui-custom.cpp
 
-SOURCES += $(IMGUI_DIR)/imgui-backends/imgui_impl_glfw.cpp \
-		   $(IMGUI_DIR)/imgui-backends/imgui_impl_opengl3.cpp
+# SOURCES += $(IMGUI_DIR)/imgui-backends/imgui_impl_glfw.cpp \
+		   # $(IMGUI_DIR)/imgui-backends/imgui_impl_opengl3.cpp
 #OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
 #OBJS = $(SOURCES:%.cpp=$(OBJDIR)/%.o)
 OBJS = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES:.cpp=.o)))
@@ -35,17 +36,9 @@ UNAME_S := $(shell uname -s)
 LINUX_GL_LIBS = -lGL
 
 # CXXFLAGS = -std=c++11 -I$(IMGUI_DIR) -I$(IMGUI_DIR)/imgui-backends
-CXXFLAGS = -std=c++11 -I$(IMGUI_DIR)/../include/imgui -I$(IMGUI_DIR)/imgui-backends
+CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(IMGUI_DIR)/imgui-backends
 CXXFLAGS += -g -Wall -Wformat
 LIBS =
-
-##---------------------------------------------------------------------
-## OPENGL ES
-##---------------------------------------------------------------------
-
-## This assumes a GL ES library available in the system, e.g. libGLESv2.so
-# CXXFLAGS += -DIMGUI_IMPL_OPENGL_ES2
-# LINUX_GL_LIBS = -lGLESv2
 
 ##---------------------------------------------------------------------
 ## BUILD FLAGS PER PLATFORM
@@ -96,6 +89,9 @@ $(OBJDIR)/%.o: $(IMGUI_DIR)/imgui-backends/%.cpp
 
 $(EXE): $(OBJS)
 	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
+
+run:
+	./build/example_glfw_opengl3.exe
 
 clean:
 	rm -rf $(EXE) $(OBJDIR)
