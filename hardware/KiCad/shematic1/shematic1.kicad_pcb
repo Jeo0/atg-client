@@ -188513,6 +188513,14 @@
 		(uuid "bccf4d59-cbb5-4a47-a7d3-4534f6f61a87")
 	)
 	(segment
+		(start 233.61 17.86)
+		(end 230.8 15.05)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "bd2b7f2a-4ea0-43d7-b9af-d63c9938dd7a")
+	)
+	(segment
 		(start 29.5 90.5)
 		(end 28 90.5)
 		(width 0.2)
