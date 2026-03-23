@@ -10,88 +10,78 @@
 #   pacman -S --noconfirm --needed mingw-w64-x86_64-toolchain mingw-w64-x86_64-glfw
 #
 
-#CXX = g++
-#CXX = clang++
+# Cross Platform Makefile for ImGui with GLFW and OpenGL3
 
 EXE = build/example_glfw_opengl3
 IMGUI_DIR = ./src
-OBJDIR := $(IMGUI_DIR)/objects
+BACKENDS_DIR = $(IMGUI_DIR)/imgui-backends
+OBJDIR = $(IMGUI_DIR)/objects
 
-SOURCES = $(IMGUI_DIR)/*.cpp
-# SOURCES = $(IMGUI_DIR)/main.cpp
-# SOURCES += $(IMGUI_DIR)/imgui.cpp \
-		   # $(IMGUI_DIR)/imgui_demo.cpp \
-		   # $(IMGUI_DIR)/imgui_draw.cpp \
-		   # $(IMGUI_DIR)/imgui_tables.cpp \
-		   # $(IMGUI_DIR)/imgui_widgets.cpp \
-		   # $(IMGUI_DIR)/imgui-custom.cpp
+# This guarantees the compiler knows exactly what to build, fixing the missing references
+SOURCES = $(wildcard src/*.cpp) \
+		  $(wildcard src/imgui-backends/*.cpp)
+# SOURCES = \
+	# $(IMGUI_DIR)/main.cpp \
+	# $(IMGUI_DIR)/imgui.cpp \
+	# $(IMGUI_DIR)/imgui_demo.cpp \
+	# $(IMGUI_DIR)/imgui_draw.cpp \
+	# $(IMGUI_DIR)/imgui_tables.cpp \
+	# $(IMGUI_DIR)/imgui_widgets.cpp	\
+	# $(IMGUI_DIR)/imgui_custom.cpp	\
+	# $(BACKENDS_DIR)/imgui_impl_glfw.cpp	\
+	# $(BACKENDS_DIR)/imgui_impl_opengl3.cpp 
 
-# SOURCES += $(IMGUI_DIR)/imgui-backends/imgui_impl_glfw.cpp \
-		   # $(IMGUI_DIR)/imgui-backends/imgui_impl_opengl3.cpp
-#OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
-#OBJS = $(SOURCES:%.cpp=$(OBJDIR)/%.o)
+# Generate object file paths from sources
 OBJS = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES:.cpp=.o)))
 
-UNAME_S := $(shell uname -s)
-LINUX_GL_LIBS = -lGL
-
-# CXXFLAGS = -std=c++11 -I$(IMGUI_DIR) -I$(IMGUI_DIR)/imgui-backends
-CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(IMGUI_DIR)/imgui-backends
-CXXFLAGS += -g -Wall -Wformat
+# Compiler Configuration
+CXX = g++
+CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(BACKENDS_DIR) -g -Wall -Wformat
 LIBS =
 
 ##---------------------------------------------------------------------
 ## BUILD FLAGS PER PLATFORM
 ##---------------------------------------------------------------------
+UNAME_S := $(shell uname -s)
 
-ifeq ($(UNAME_S), Linux) #LINUX
+ifeq ($(UNAME_S), Linux)
 	ECHO_MESSAGE = "Linux"
-	LIBS += $(LINUX_GL_LIBS) `pkg-config --static --libs glfw3`
-
+	LIBS += -lGL `pkg-config --static --libs glfw3`
 	CXXFLAGS += `pkg-config --cflags glfw3`
-	CFLAGS = $(CXXFLAGS)
 endif
 
 ifeq ($(OS), Windows_NT)
-	ECHO_MESSAGE = "MinGW"
+	ECHO_MESSAGE = "MinGW (Windows)"
 	LIBS += -lglfw3 -lgdi32 -lopengl32 -limm32
-
 	CXXFLAGS += `pkg-config --cflags glfw3`
-	CFLAGS = $(CXXFLAGS)
 endif
 
 ##---------------------------------------------------------------------
 ## BUILD RULES
 ##---------------------------------------------------------------------
+.PHONY: all run clean
 
 all: $(EXE)
 	@echo Build complete for $(ECHO_MESSAGE)
+
+run: all
 	./$(EXE)
 
-%.o:%.cpp
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
-%.o:$(IMGUI_DIR)/%.cpp
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
-%.o:$(IMGUI_DIR)/imgui-backends/%.cpp
-	
-# $(OBJDIR)/%.o: %.cpp
-	# @mkdir -p $(dir $@)
-	# $(CXX) $(CXXFLAGS) -c -o $@ $<
+# Rule for building core ImGui and main source files
 $(OBJDIR)/%.o: $(IMGUI_DIR)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-$(OBJDIR)/%.o: $(IMGUI_DIR)/imgui-backends/%.cpp
+# Rule for building ImGui backend source files
+$(OBJDIR)/%.o: $(BACKENDS_DIR)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
+# Rule to link the final executable
 $(EXE): $(OBJS)
+	@mkdir -p $(dir $@)
 	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
-
-run:
-	./build/example_glfw_opengl3.exe
 
 clean:
 	rm -rf $(EXE) $(OBJDIR)
+
