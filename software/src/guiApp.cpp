@@ -54,16 +54,16 @@ void GuiApp::Run() {
     glShaderSource(verObj, 1, &vertShader, NULL);
     glCompileShader(verObj);
 
-    GLint success = 0;
-    GLchar* log;
-    char* msg = "asd";
-    {
-        glGetShaderiv(verObj, GL_COMPILE_STATUS, &success);
-        if (!success) {
-            glGetShaderInfoLog(verObj, 512, NULL, log);
-            printf(strcat(strcpy(msg, "Vertex Shader Failed to Compile!\n> OpenGL Error: "), log));
-        }
-    }
+    // GLint success = 0;
+    // GLchar* log;
+    // char* msg = "asd";
+    // {
+    //     glGetShaderiv(verObj, GL_COMPILE_STATUS, &success);
+    //     if (!success) {
+    //         glGetShaderInfoLog(verObj, 512, NULL, log);
+    //         printf(strcat(strcpy(msg, "Vertex Shader Failed to Compile!\n> OpenGL Error: "), log));
+    //     }
+    // }
 
     // main loop
     while (!glfwWindowShouldClose(window)) {
