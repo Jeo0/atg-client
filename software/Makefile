@@ -1,97 +1,96 @@
-#
-# Cross Platform Makefile Compatible with MSYS2/MINGW, Ubuntu 14.04.1 and Mac OS X
-#
-# You will need GLFW (http://www.glfw.org):
-# Linux:
-#   apt-get install libglfw-dev
-# Mac OS X:
-#   brew install glfw
-# MSYS2:
-#   pacman -S --noconfirm --needed mingw-w64-x86_64-toolchain mingw-w64-x86_64-glfw
-#
+# Base executable name (without extension)
+EXE_BASE = build/example_glfw_opengl3
 
-#CXX = g++
-#CXX = clang++
+# Directories based on your new architecture
+INC_DIR = ./include
+SRC_DIR = ./src
+IMGUI_SRC = $(SRC_DIR)/imgui
+BACKENDS_SRC = $(SRC_DIR)/imgui-backends
+OBJDIR = $(SRC_DIR)/objects
 
-EXE = build/example_glfw_opengl3
-IMGUI_DIR = ./src
-OBJDIR := $(IMGUI_DIR)/objects
+# 1. Grab all C++ files
+SOURCES_CPP = $(wildcard $(SRC_DIR)/*.cpp) \
+              $(wildcard $(IMGUI_SRC)/*.cpp) \
+              $(wildcard $(BACKENDS_SRC)/*.cpp)
 
-SOURCES = $(IMGUI_DIR)/*.cpp
-# SOURCES = $(IMGUI_DIR)/main.cpp
-# SOURCES += $(IMGUI_DIR)/imgui.cpp \
-		   # $(IMGUI_DIR)/imgui_demo.cpp \
-		   # $(IMGUI_DIR)/imgui_draw.cpp \
-		   # $(IMGUI_DIR)/imgui_tables.cpp \
-		   # $(IMGUI_DIR)/imgui_widgets.cpp \
-		   # $(IMGUI_DIR)/imgui-custom.cpp
+# 2. Grab all C files (for glad.c)
+SOURCES_C = $(wildcard $(SRC_DIR)/*.c)
 
-# SOURCES += $(IMGUI_DIR)/imgui-backends/imgui_impl_glfw.cpp \
-		   # $(IMGUI_DIR)/imgui-backends/imgui_impl_opengl3.cpp
-#OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
-#OBJS = $(SOURCES:%.cpp=$(OBJDIR)/%.o)
-OBJS = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES:.cpp=.o)))
+# Generate object file paths for both C and C++ files
+OBJS_CPP = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES_CPP:.cpp=.o)))
+OBJS_C = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES_C:.c=.o)))
+OBJS = $(OBJS_CPP) $(OBJS_C)
 
-UNAME_S := $(shell uname -s)
-LINUX_GL_LIBS = -lGL
+# Compiler Configuration
+CXX = g++
+CC = gcc
 
-# CXXFLAGS = -std=c++11 -I$(IMGUI_DIR) -I$(IMGUI_DIR)/imgui-backends
-CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(IMGUI_DIR)/imgui-backends
-CXXFLAGS += -g -Wall -Wformat
+# Include flags (-I): 
+# -I$(INC_DIR) allows `#include "core/guiApp.h"` and `#include <glad/glad.h>`
+# -I$(INC_DIR)/imgui allows ImGui files to find `#include "imgui.h"` directly
+INCLUDES = -I$(INC_DIR) -I$(INC_DIR)/imgui
+
+CXXFLAGS = -std=c++14 $(INCLUDES) -g -Wall -Wformat
+CFLAGS = $(INCLUDES) -g -Wall -Wformat
 LIBS =
 
 ##---------------------------------------------------------------------
-## BUILD FLAGS PER PLATFORM
+## OS DETECTION & PLATFORM SPECIFIC FLAGS
 ##---------------------------------------------------------------------
-
-ifeq ($(UNAME_S), Linux) #LINUX
-	ECHO_MESSAGE = "Linux"
-	LIBS += $(LINUX_GL_LIBS) `pkg-config --static --libs glfw3`
-
-	CXXFLAGS += `pkg-config --cflags glfw3`
-	CFLAGS = $(CXXFLAGS)
-endif
-
 ifeq ($(OS), Windows_NT)
-	ECHO_MESSAGE = "MinGW"
+	ECHO_MESSAGE = "MinGW (Windows)"
 	LIBS += -lglfw3 -lgdi32 -lopengl32 -limm32
-
 	CXXFLAGS += `pkg-config --cflags glfw3`
-	CFLAGS = $(CXXFLAGS)
+	CFLAGS += `pkg-config --cflags glfw3`
+	EXE = $(EXE_BASE).exe
+	CLEAN_CMD = Remove-Item -Path '$(EXE)', '$(OBJDIR)' -Recurse -Force -ErrorAction SilentlyContinue
+else
+	UNAME_S := $(shell uname -s)
+	ifeq ($(UNAME_S), Linux)
+		ECHO_MESSAGE = "Linux"
+		LIBS += -lGL `pkg-config --static --libs glfw3`
+		CXXFLAGS += `pkg-config --cflags glfw3`
+		CFLAGS += `pkg-config --cflags glfw3`
+		EXE = $(EXE_BASE)
+		CLEAN_CMD = rm -rf $(EXE) $(OBJDIR)
+	endif
 endif
 
 ##---------------------------------------------------------------------
 ## BUILD RULES
 ##---------------------------------------------------------------------
+.PHONY: all run clean
 
 all: $(EXE)
 	@echo Build complete for $(ECHO_MESSAGE)
+
+run: all
 	./$(EXE)
 
-%.o:%.cpp
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
-%.o:$(IMGUI_DIR)/%.cpp
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
-%.o:$(IMGUI_DIR)/imgui-backends/%.cpp
-	
-# $(OBJDIR)/%.o: %.cpp
-	# @mkdir -p $(dir $@)
-	# $(CXX) $(CXXFLAGS) -c -o $@ $<
-$(OBJDIR)/%.o: $(IMGUI_DIR)/%.cpp
+# for .cpp
+$(OBJDIR)/%.o: $(SRC_DIR)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-$(OBJDIR)/%.o: $(IMGUI_DIR)/imgui-backends/%.cpp
+# for .c
+$(OBJDIR)/%.o: $(SRC_DIR)/%.c
+	@mkdir -p $(OBJDIR)
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# core imgui
+$(OBJDIR)/%.o: $(IMGUI_SRC)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
+# imgui backedn
+$(OBJDIR)/%.o: $(BACKENDS_SRC)/%.cpp
+	@mkdir -p $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# executable
 $(EXE): $(OBJS)
+	@mkdir -p $(dir $@)
 	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
 
-run:
-	./build/example_glfw_opengl3.exe
-
 clean:
-	rm -rf $(EXE) $(OBJDIR)
+	$(CLEAN_CMD)

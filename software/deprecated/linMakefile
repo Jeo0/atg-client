@@ -1,0 +1,90 @@
+#
+# Cross Platform Makefile Compatible with MSYS2/MINGW, Ubuntu 14.04.1 and Mac OS X
+#
+# You will need GLFW (http://www.glfw.org):
+# Linux:
+#   apt-get install libglfw-dev
+# Mac OS X:
+#   brew install glfw
+# MSYS2:
+#   pacman -S --noconfirm --needed mingw-w64-x86_64-toolchain mingw-w64-x86_64-glfw
+#
+
+# Cross Platform Makefile for ImGui with GLFW and OpenGL3
+
+EXE = build/example_glfw_opengl3
+IMGUI_DIR = ./src
+BACKENDS_DIR = $(IMGUI_DIR)/imgui-backends
+OBJDIR = $(IMGUI_DIR)/objects
+
+# This guarantees the compiler knows exactly what to build, fixing the missing references
+SOURCES = $(wildcard src/*.cpp) \
+		  $(wildcard src/imgui-backends/*.cpp)
+# the bottom does not work
+# SOURCES = $(IMGUI_DIR)/*.cpp \
+		  # $(BACKENDS_DIR)/*.cpp
+# SOURCES = \
+	# $(IMGUI_DIR)/main.cpp \
+	# $(IMGUI_DIR)/imgui.cpp \
+	# $(IMGUI_DIR)/imgui_demo.cpp \
+	# $(IMGUI_DIR)/imgui_draw.cpp \
+	# $(IMGUI_DIR)/imgui_tables.cpp \
+	# $(IMGUI_DIR)/imgui_widgets.cpp	\
+	# $(IMGUI_DIR)/imgui_custom.cpp	\
+	# $(BACKENDS_DIR)/imgui_impl_glfw.cpp	\
+	# $(BACKENDS_DIR)/imgui_impl_opengl3.cpp 
+
+# Generate object file paths from sources
+OBJS = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES:.cpp=.o)))
+
+# Compiler Configuration
+CXX = g++
+CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(BACKENDS_DIR) -g -Wall -Wformat
+LIBS =
+
+##---------------------------------------------------------------------
+## BUILD FLAGS PER PLATFORM
+##---------------------------------------------------------------------
+UNAME_S := $(shell uname -s)
+
+ifeq ($(UNAME_S), Linux)
+	ECHO_MESSAGE = "Linux"
+	LIBS += -lGL `pkg-config --static --libs glfw3`
+	CXXFLAGS += `pkg-config --cflags glfw3`
+endif
+
+ifeq ($(OS), Windows_NT)
+	ECHO_MESSAGE = "MinGW (Windows)"
+	LIBS += -lglfw3 -lgdi32 -lopengl32 -limm32
+	CXXFLAGS += `pkg-config --cflags glfw3`
+endif
+
+##---------------------------------------------------------------------
+## BUILD RULES
+##---------------------------------------------------------------------
+.PHONY: all run clean
+
+all: $(EXE)
+	@echo Build complete for $(ECHO_MESSAGE)
+
+run: all
+	./$(EXE)
+
+# Rule for building core ImGui and main source files
+$(OBJDIR)/%.o: $(IMGUI_DIR)/%.cpp
+	@mkdir -p $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Rule for building ImGui backend source files
+$(OBJDIR)/%.o: $(BACKENDS_DIR)/%.cpp
+	@mkdir -p $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Rule to link the final executable
+$(EXE): $(OBJS)
+	@mkdir -p $(dir $@)
+	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
+
+clean:
+	rm -rf $(EXE) $(OBJDIR)
+
