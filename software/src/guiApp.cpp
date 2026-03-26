@@ -13,10 +13,13 @@ bool GuiApp::Init(int width, int height, const char* title) {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
 
+    // setup window
     window = glfwCreateWindow(width, height, title, nullptr, nullptr);
     if (!window) return false;
     glfwMakeContextCurrent(window);
     glfwSwapInterval(1); // Enable vsync
+
+	gladLoadGL(); // initialize glad
 
     // 2. Setup Dear ImGui Context
     IMGUI_CHECKVERSION();
@@ -32,38 +35,25 @@ bool GuiApp::Init(int width, int height, const char* title) {
     return true;
 }
 
-std::string shadad(std::string p_file) {
-    std::string e_source, e_line {};
-
-    std::ifstream theFile(p_file);
-    if(theFile.is_open()){
-        while(std::getline(theFile, e_line)){
-            e_source += e_line + "\n";
-        }
-        theFile.close();
-    }
-    else {
-        std::cerr << "error opening file";
-    }
-    return e_source;
-}
 
 void GuiApp::Run() {
-    const char* vertShader = shadad("src/shaders/default.vert").c_str();
+    // -----------------
+    // trial
+    std::string sourceFile = ShaderReader("src/shaders/default.vert");
+    const char* vertShader = sourceFile.c_str();
     GLuint verObj = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(verObj, 1, &vertShader, NULL);
     glCompileShader(verObj);
 
-    // GLint success = 0;
-    // GLchar* log;
-    // char* msg = "asd";
-    // {
-    //     glGetShaderiv(verObj, GL_COMPILE_STATUS, &success);
-    //     if (!success) {
-    //         glGetShaderInfoLog(verObj, 512, NULL, log);
-    //         printf(strcat(strcpy(msg, "Vertex Shader Failed to Compile!\n> OpenGL Error: "), log));
-    //     }
-    // }
+    GLint success = 0;
+    short int logSize = 512;
+    GLchar log[logSize];
+    glGetShaderiv(verObj, GL_COMPILE_STATUS, &success);
+    if (!success) {
+        glGetShaderInfoLog(verObj, logSize, NULL, log);
+        std::cerr << "Vertex Shader Failed to Compile!\n> OpenGL Error: " << log << std::endl;
+    }
+    // -----------------
 
     // main loop
     while (!glfwWindowShouldClose(window)) {

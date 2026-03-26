@@ -1,5 +1,6 @@
 #pragma once 
-#include <string>
+#include <iostream>
+#include <fstream>
 
 std::string ShaderReader(std::string p_file);
 
