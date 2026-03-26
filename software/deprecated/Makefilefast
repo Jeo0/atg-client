@@ -1,0 +1,68 @@
+EXE = build/example_glfw_opengl3
+IMGUI_DIR = ./src
+BACKENDS_DIR = $(IMGUI_DIR)/imgui-backends
+OBJDIR = $(IMGUI_DIR)/objects
+
+# Use $(wildcard) to ensure the shell doesn't mess up file paths
+SOURCES = $(wildcard $(IMGUI_DIR)/*.cpp) \
+          $(wildcard $(BACKENDS_DIR)/*.cpp)
+
+# Generate object file paths
+OBJS = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES:.cpp=.o)))
+
+# Compiler Configuration
+CXX = g++
+CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(BACKENDS_DIR) -g -Wall -Wformat
+LIBS =
+
+##---------------------------------------------------------------------
+## PLATFORM DETECTION & FIXED COMMANDS
+##---------------------------------------------------------------------
+ifeq ($(OS), Windows_NT)
+    ECHO_MESSAGE = "MinGW (Windows)"
+    LIBS += -lglfw3 -lgdi32 -lopengl32 -limm32
+    # On Windows, we often need to avoid pkg-config if it's not installed
+    # but since you used it, I'll keep it. 
+    CXXFLAGS += `pkg-config --cflags glfw3`
+    # Helper for directory creation on Windows/MinGW
+    MKDIR_P = mkdir -p
+    RM = rm -rf
+    EXE_FILE = $(EXE).exe
+else
+    UNAME_S := $(shell uname -s)
+    ECHO_MESSAGE = "Linux"
+    LIBS += -lGL `pkg-config --static --libs glfw3`
+    CXXFLAGS += `pkg-config --cflags glfw3`
+    MKDIR_P = mkdir -p
+    RM = rm -rf
+    EXE_FILE = $(EXE)
+endif
+
+##---------------------------------------------------------------------
+## BUILD RULES
+##---------------------------------------------------------------------
+.PHONY: all run clean
+
+all: $(EXE_FILE)
+	@echo Build complete for $(ECHO_MESSAGE)
+
+# Rule for objects in IMGUI_DIR
+$(OBJDIR)/%.o: $(IMGUI_DIR)/%.cpp
+	@$(MKDIR_P) $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Rule for objects in BACKENDS_DIR
+$(OBJDIR)/%.o: $(BACKENDS_DIR)/%.cpp
+	@$(MKDIR_P) $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Final Link
+$(EXE_FILE): $(OBJS)
+	@$(MKDIR_P) $(dir $@)
+	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
+
+run: all
+	./$(EXE_FILE)
+
+clean:
+	$(RM) build $(OBJDIR)

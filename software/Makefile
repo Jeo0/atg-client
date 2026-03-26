@@ -67,27 +67,27 @@ all: $(EXE)
 run: all
 	./$(EXE)
 
-# Rule for building your custom C++ source files (main.cpp, guiApp.cpp)
+# for .cpp
 $(OBJDIR)/%.o: $(SRC_DIR)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-# Rule for building C files (glad.c)
+# for .c
 $(OBJDIR)/%.o: $(SRC_DIR)/%.c
 	@mkdir -p $(OBJDIR)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
-# Rule for building core ImGui C++ files
+# core imgui
 $(OBJDIR)/%.o: $(IMGUI_SRC)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-# Rule for building ImGui backend C++ files
+# imgui backedn
 $(OBJDIR)/%.o: $(BACKENDS_SRC)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-# Rule to link the final executable
+# executable
 $(EXE): $(OBJS)
 	@mkdir -p $(dir $@)
 	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
