@@ -1,59 +1,59 @@
-# Base executable name (without extension)
-EXE_BASE = build/example_glfw_opengl3
+#
+# Cross Platform Makefile Compatible with MSYS2/MINGW, Ubuntu 14.04.1 and Mac OS X
+#
+# You will need GLFW (http://www.glfw.org):
+# Linux:
+#   apt-get install libglfw-dev
+# Mac OS X:
+#   brew install glfw
+# MSYS2:
+#   pacman -S --noconfirm --needed mingw-w64-x86_64-toolchain mingw-w64-x86_64-glfw
+#
 
-# Directories based on your new architecture
-INC_DIR = ./include
-SRC_DIR = ./src
-IMGUI_SRC = $(SRC_DIR)/imgui
-BACKENDS_SRC = $(SRC_DIR)/imgui-backends
-OBJDIR = $(SRC_DIR)/objects
+# Cross Platform Makefile for ImGui with GLFW and OpenGL3
 
-# 1. Grab all C++ files
-SOURCES_CPP = $(wildcard $(SRC_DIR)/*.cpp) \
-              $(wildcard $(IMGUI_SRC)/*.cpp) \
-              $(wildcard $(BACKENDS_SRC)/*.cpp)
+EXE = build/example_glfw_opengl3
+IMGUI_DIR = ./src
+BACKENDS_DIR = $(IMGUI_DIR)/imgui-backends
+OBJDIR = $(IMGUI_DIR)/objects
 
-# 2. Grab all C files (for glad.c)
-SOURCES_C = $(wildcard $(SRC_DIR)/*.c)
+# This guarantees the compiler knows exactly what to build, fixing the missing references
+SOURCES = $(wildcard src/*.cpp) \
+		  $(wildcard src/imgui-backends/*.cpp)
+# SOURCES = \
+	# $(IMGUI_DIR)/main.cpp \
+	# $(IMGUI_DIR)/imgui.cpp \
+	# $(IMGUI_DIR)/imgui_demo.cpp \
+	# $(IMGUI_DIR)/imgui_draw.cpp \
+	# $(IMGUI_DIR)/imgui_tables.cpp \
+	# $(IMGUI_DIR)/imgui_widgets.cpp	\
+	# $(IMGUI_DIR)/imgui_custom.cpp	\
+	# $(BACKENDS_DIR)/imgui_impl_glfw.cpp	\
+	# $(BACKENDS_DIR)/imgui_impl_opengl3.cpp 
 
-# Generate object file paths for both C and C++ files
-OBJS_CPP = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES_CPP:.cpp=.o)))
-OBJS_C = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES_C:.c=.o)))
-OBJS = $(OBJS_CPP) $(OBJS_C)
+# Generate object file paths from sources
+OBJS = $(addprefix $(OBJDIR)/, $(notdir $(SOURCES:.cpp=.o)))
 
 # Compiler Configuration
 CXX = g++
-CC = gcc
-
-# Include flags (-I): 
-# -I$(INC_DIR) allows `#include "core/guiApp.h"` and `#include <glad/glad.h>`
-# -I$(INC_DIR)/imgui allows ImGui files to find `#include "imgui.h"` directly
-INCLUDES = -I$(INC_DIR) -I$(INC_DIR)/imgui
-
-CXXFLAGS = -std=c++14 $(INCLUDES) -g -Wall -Wformat
-CFLAGS = $(INCLUDES) -g -Wall -Wformat
+CXXFLAGS = -std=c++14 -I$(IMGUI_DIR)/../include/imgui -I$(BACKENDS_DIR) -g -Wall -Wformat
 LIBS =
 
 ##---------------------------------------------------------------------
-## OS DETECTION & PLATFORM SPECIFIC FLAGS
+## BUILD FLAGS PER PLATFORM
 ##---------------------------------------------------------------------
+UNAME_S := $(shell uname -s)
+
+ifeq ($(UNAME_S), Linux)
+	ECHO_MESSAGE = "Linux"
+	LIBS += -lGL `pkg-config --static --libs glfw3`
+	CXXFLAGS += `pkg-config --cflags glfw3`
+endif
+
 ifeq ($(OS), Windows_NT)
 	ECHO_MESSAGE = "MinGW (Windows)"
 	LIBS += -lglfw3 -lgdi32 -lopengl32 -limm32
 	CXXFLAGS += `pkg-config --cflags glfw3`
-	CFLAGS += `pkg-config --cflags glfw3`
-	EXE = $(EXE_BASE).exe
-	CLEAN_CMD = Remove-Item -Path '$(EXE)', '$(OBJDIR)' -Recurse -Force -ErrorAction SilentlyContinue
-else
-	UNAME_S := $(shell uname -s)
-	ifeq ($(UNAME_S), Linux)
-		ECHO_MESSAGE = "Linux"
-		LIBS += -lGL `pkg-config --static --libs glfw3`
-		CXXFLAGS += `pkg-config --cflags glfw3`
-		CFLAGS += `pkg-config --cflags glfw3`
-		EXE = $(EXE_BASE)
-		CLEAN_CMD = rm -rf $(EXE) $(OBJDIR)
-	endif
 endif
 
 ##---------------------------------------------------------------------
@@ -67,23 +67,13 @@ all: $(EXE)
 run: all
 	./$(EXE)
 
-# Rule for building your custom C++ source files (main.cpp, guiApp.cpp)
-$(OBJDIR)/%.o: $(SRC_DIR)/%.cpp
+# Rule for building core ImGui and main source files
+$(OBJDIR)/%.o: $(IMGUI_DIR)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-# Rule for building C files (glad.c)
-$(OBJDIR)/%.o: $(SRC_DIR)/%.c
-	@mkdir -p $(OBJDIR)
-	$(CC) $(CFLAGS) -c -o $@ $<
-
-# Rule for building core ImGui C++ files
-$(OBJDIR)/%.o: $(IMGUI_SRC)/%.cpp
-	@mkdir -p $(OBJDIR)
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
-# Rule for building ImGui backend C++ files
-$(OBJDIR)/%.o: $(BACKENDS_SRC)/%.cpp
+# Rule for building ImGui backend source files
+$(OBJDIR)/%.o: $(BACKENDS_DIR)/%.cpp
 	@mkdir -p $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
@@ -93,4 +83,5 @@ $(EXE): $(OBJS)
 	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
 
 clean:
-	$(CLEAN_CMD)
+	rm -rf $(EXE) $(OBJDIR)
+
