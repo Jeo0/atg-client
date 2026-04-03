@@ -1,0 +1,904 @@
+Info: Processing symbol 'C1:'.
+Info: Processing symbol 'LS194:'.
+Info: Processing symbol 'C2:'.
+Info: Processing symbol 'LS195:'.
+Info: Processing symbol 'C3:'.
+Info: Processing symbol 'LS196:'.
+Info: Processing symbol 'C4:'.
+Info: Processing symbol 'LS197:'.
+Info: Processing symbol 'C5:'.
+Info: Processing symbol 'LS198:'.
+Info: Processing symbol 'C6:'.
+Info: Processing symbol 'LS199:'.
+Info: Processing symbol 'C7:'.
+Info: Processing symbol 'LS200:'.
+Info: Processing symbol 'C8:'.
+Info: Processing symbol 'LS201:'.
+Info: Processing symbol 'C9:'.
+Info: Processing symbol 'LS202:'.
+Info: Processing symbol 'C10:'.
+Info: Processing symbol 'LS203:'.
+Info: Processing symbol 'C11:'.
+Info: Processing symbol 'LS204:'.
+Info: Processing symbol 'C12:'.
+Info: Processing symbol 'LS205:'.
+Info: Processing symbol 'C13:'.
+Info: Processing symbol 'LS206:'.
+Info: Processing symbol 'C14:'.
+Info: Processing symbol 'LS207:'.
+Info: Processing symbol 'C15:'.
+Info: Processing symbol 'LS208:'.
+Info: Processing symbol 'C16:'.
+Info: Processing symbol 'LS209:'.
+Info: Processing symbol 'C17:'.
+Info: Processing symbol 'LS210:'.
+Info: Processing symbol 'C18:'.
+Info: Processing symbol 'LS211:'.
+Info: Processing symbol 'C19:'.
+Info: Processing symbol 'LS212:'.
+Info: Processing symbol 'C20:'.
+Info: Processing symbol 'LS213:'.
+Info: Processing symbol 'C21:'.
+Info: Processing symbol 'LS214:'.
+Info: Processing symbol 'C22:'.
+Info: Processing symbol 'LS215:'.
+Info: Processing symbol 'C23:'.
+Info: Processing symbol 'LS216:'.
+Info: Processing symbol 'C24:'.
+Info: Processing symbol 'LS217:'.
+Info: Processing symbol 'C25:'.
+Info: Processing symbol 'LS218:'.
+Info: Processing symbol 'C26:'.
+Info: Processing symbol 'LS219:'.
+Info: Processing symbol 'C27:'.
+Info: Processing symbol 'LS220:'.
+Info: Processing symbol 'C28:'.
+Info: Processing symbol 'LS221:'.
+Info: Processing symbol 'C29:'.
+Info: Processing symbol 'LS222:'.
+Info: Processing symbol 'C30:'.
+Info: Processing symbol 'LS223:'.
+Info: Processing symbol 'C31:'.
+Info: Processing symbol 'LS224:'.
+Info: Processing symbol 'C32:'.
+Info: Processing symbol 'LS225:'.
+Info: Processing symbol 'LS1:'.
+Info: Processing symbol 'LS226:'.
+Info: Processing symbol 'LS2:'.
+Info: Processing symbol 'LS227:'.
+Info: Processing symbol 'LS3:'.
+Info: Processing symbol 'LS228:'.
+Info: Processing symbol 'LS4:'.
+Info: Processing symbol 'LS229:'.
+Info: Processing symbol 'LS5:'.
+Info: Processing symbol 'LS230:'.
+Info: Processing symbol 'LS6:'.
+Info: Processing symbol 'LS231:'.
+Info: Processing symbol 'LS7:'.
+Info: Processing symbol 'LS232:'.
+Info: Processing symbol 'LS8:'.
+Info: Processing symbol 'LS233:'.
+Info: Processing symbol 'LS9:'.
+Info: Processing symbol 'LS234:'.
+Info: Processing symbol 'LS10:'.
+Info: Processing symbol 'LS235:'.
+Info: Processing symbol 'LS11:'.
+Info: Processing symbol 'LS236:'.
+Info: Processing symbol 'LS12:'.
+Info: Processing symbol 'LS237:'.
+Info: Processing symbol 'LS13:'.
+Info: Processing symbol 'LS238:'.
+Info: Processing symbol 'LS14:'.
+Info: Processing symbol 'LS239:'.
+Info: Processing symbol 'LS15:'.
+Info: Processing symbol 'LS240:'.
+Info: Processing symbol 'LS16:'.
+Info: Processing symbol 'LS241:'.
+Info: Processing symbol 'LS17:'.
+Info: Processing symbol 'LS242:'.
+Info: Processing symbol 'LS18:'.
+Info: Processing symbol 'LS243:'.
+Info: Processing symbol 'LS19:'.
+Info: Processing symbol 'LS244:'.
+Info: Processing symbol 'LS20:'.
+Info: Processing symbol 'LS245:'.
+Info: Processing symbol 'LS21:'.
+Info: Processing symbol 'LS246:'.
+Info: Processing symbol 'LS22:'.
+Info: Processing symbol 'LS247:'.
+Info: Processing symbol 'LS23:'.
+Info: Processing symbol 'LS248:'.
+Info: Processing symbol 'LS24:'.
+Info: Processing symbol 'LS249:'.
+Info: Processing symbol 'LS25:'.
+Info: Processing symbol 'LS250:'.
+Info: Processing symbol 'LS26:'.
+Info: Processing symbol 'LS251:'.
+Info: Processing symbol 'LS27:'.
+Info: Processing symbol 'LS252:'.
+Info: Processing symbol 'LS28:'.
+Info: Processing symbol 'LS253:'.
+Info: Processing symbol 'LS29:'.
+Info: Processing symbol 'LS254:'.
+Info: Processing symbol 'LS30:'.
+Info: Processing symbol 'LS255:'.
+Info: Processing symbol 'LS31:'.
+Info: Processing symbol 'LS256:'.
+Info: Processing symbol 'LS32:'.
+Info: Processing symbol 'u1:'.
+Info: Processing symbol 'LS33:'.
+Info: Processing symbol 'U2:SOIC16_TOS'.
+Info: Processing symbol 'LS34:'.
+Info: Processing symbol 'U3:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS35:'.
+Info: Processing symbol 'U4:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS36:'.
+Info: Processing symbol 'U5:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS37:'.
+Info: Processing symbol 'U6:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS38:'.
+Info: Processing symbol 'U7:SOIC16_TOS'.
+Info: Processing symbol 'LS39:'.
+Info: Processing symbol 'U8:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS40:'.
+Info: Processing symbol 'U9:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS41:'.
+Info: Processing symbol 'U10:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS42:'.
+Info: Processing symbol 'U11:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS43:'.
+Info: Processing symbol 'U12:SOIC16_TOS'.
+Info: Processing symbol 'LS44:'.
+Info: Processing symbol 'U13:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS45:'.
+Info: Processing symbol 'U14:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS46:'.
+Info: Processing symbol 'U15:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS47:'.
+Info: Processing symbol 'U16:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS48:'.
+Info: Processing symbol 'U17:SOIC16_TOS'.
+Info: Processing symbol 'LS49:'.
+Info: Processing symbol 'U18:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS50:'.
+Info: Processing symbol 'U19:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS51:'.
+Info: Processing symbol 'U20:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS52:'.
+Info: Processing symbol 'U21:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS53:'.
+Info: Processing symbol 'U22:SOIC16_TOS'.
+Info: Processing symbol 'LS54:'.
+Info: Processing symbol 'U23:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS55:'.
+Info: Processing symbol 'U24:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS56:'.
+Info: Processing symbol 'U25:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS57:'.
+Info: Processing symbol 'U26:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS58:'.
+Info: Processing symbol 'U27:SOIC16_TOS'.
+Info: Processing symbol 'LS59:'.
+Info: Processing symbol 'U28:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS60:'.
+Info: Processing symbol 'U29:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS61:'.
+Info: Processing symbol 'U30:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS62:'.
+Info: Processing symbol 'U31:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS63:'.
+Info: Processing symbol 'U32:SOIC16_TOS'.
+Info: Processing symbol 'LS64:'.
+Info: Processing symbol 'U33:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS65:'.
+Info: Processing symbol 'U34:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS66:'.
+Info: Processing symbol 'U35:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS67:'.
+Info: Processing symbol 'U36:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS68:'.
+Info: Processing symbol 'U37:SOIC16_TOS'.
+Info: Processing symbol 'LS69:'.
+Info: Processing symbol 'U38:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS70:'.
+Info: Processing symbol 'U39:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS71:'.
+Info: Processing symbol 'U40:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS72:'.
+Info: Processing symbol 'U41:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS73:'.
+Info: Processing symbol 'U42:SOIC16_TOS'.
+Info: Processing symbol 'LS74:'.
+Info: Processing symbol 'U43:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS75:'.
+Info: Processing symbol 'U44:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS76:'.
+Info: Processing symbol 'U45:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS77:'.
+Info: Processing symbol 'U46:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS78:'.
+Info: Processing symbol 'U47:SOIC16_TOS'.
+Info: Processing symbol 'LS79:'.
+Info: Processing symbol 'U48:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS80:'.
+Info: Processing symbol 'U49:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS81:'.
+Info: Processing symbol 'U50:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS82:'.
+Info: Processing symbol 'U51:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS83:'.
+Info: Processing symbol 'U52:SOIC16_TOS'.
+Info: Processing symbol 'LS84:'.
+Info: Processing symbol 'U53:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS85:'.
+Info: Processing symbol 'U54:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS86:'.
+Info: Processing symbol 'U55:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS87:'.
+Info: Processing symbol 'U56:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS88:'.
+Info: Processing symbol 'U57:SOIC16_TOS'.
+Info: Processing symbol 'LS89:'.
+Info: Processing symbol 'U58:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS90:'.
+Info: Processing symbol 'U59:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS91:'.
+Info: Processing symbol 'U60:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS92:'.
+Info: Processing symbol 'U61:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS93:'.
+Info: Processing symbol 'U62:SOIC16_TOS'.
+Info: Processing symbol 'LS94:'.
+Info: Processing symbol 'U63:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS95:'.
+Info: Processing symbol 'U64:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS96:'.
+Info: Processing symbol 'U65:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS97:'.
+Info: Processing symbol 'U66:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS98:'.
+Info: Processing symbol 'U67:SOIC16_TOS'.
+Info: Processing symbol 'LS99:'.
+Info: Processing symbol 'U68:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS100:'.
+Info: Processing symbol 'U69:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS101:'.
+Info: Processing symbol 'U70:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS102:'.
+Info: Processing symbol 'U71:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS103:'.
+Info: Processing symbol 'U72:SOIC16_TOS'.
+Info: Processing symbol 'LS104:'.
+Info: Processing symbol 'U73:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS105:'.
+Info: Processing symbol 'U74:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS106:'.
+Info: Processing symbol 'U75:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS107:'.
+Info: Processing symbol 'U76:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS108:'.
+Info: Processing symbol 'U77:SOIC16_TOS'.
+Info: Processing symbol 'LS109:'.
+Info: Processing symbol 'U78:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS110:'.
+Info: Processing symbol 'U79:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS111:'.
+Info: Processing symbol 'U80:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS112:'.
+Info: Processing symbol 'U81:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS113:'.
+Info: Processing symbol 'U82:SOIC16_TOS'.
+Info: Processing symbol 'LS114:'.
+Info: Processing symbol 'U83:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS115:'.
+Info: Processing symbol 'U84:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS116:'.
+Info: Processing symbol 'U85:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS117:'.
+Info: Processing symbol 'U86:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS118:'.
+Info: Processing symbol 'U87:SOIC16_TOS'.
+Info: Processing symbol 'LS119:'.
+Info: Processing symbol 'U88:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS120:'.
+Info: Processing symbol 'U89:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS121:'.
+Info: Processing symbol 'U90:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS122:'.
+Info: Processing symbol 'U91:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS123:'.
+Info: Processing symbol 'U92:SOIC16_TOS'.
+Info: Processing symbol 'LS124:'.
+Info: Processing symbol 'U93:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS125:'.
+Info: Processing symbol 'U94:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS126:'.
+Info: Processing symbol 'U95:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS127:'.
+Info: Processing symbol 'U96:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS128:'.
+Info: Processing symbol 'U97:SOIC16_TOS'.
+Info: Processing symbol 'LS129:'.
+Info: Processing symbol 'U98:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS130:'.
+Info: Processing symbol 'U99:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS131:'.
+Info: Processing symbol 'U100:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS132:'.
+Info: Processing symbol 'U101:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS133:'.
+Info: Processing symbol 'U102:SOIC16_TOS'.
+Info: Processing symbol 'LS134:'.
+Info: Processing symbol 'U103:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS135:'.
+Info: Processing symbol 'U104:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS136:'.
+Info: Processing symbol 'U105:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS137:'.
+Info: Processing symbol 'U106:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS138:'.
+Info: Processing symbol 'U107:SOIC16_TOS'.
+Info: Processing symbol 'LS139:'.
+Info: Processing symbol 'U108:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS140:'.
+Info: Processing symbol 'U109:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS141:'.
+Info: Processing symbol 'U110:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS142:'.
+Info: Processing symbol 'U111:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS143:'.
+Info: Processing symbol 'U112:SOIC16_TOS'.
+Info: Processing symbol 'LS144:'.
+Info: Processing symbol 'U113:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS145:'.
+Info: Processing symbol 'U114:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS146:'.
+Info: Processing symbol 'U115:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS147:'.
+Info: Processing symbol 'U116:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS148:'.
+Info: Processing symbol 'U117:SOIC16_TOS'.
+Info: Processing symbol 'LS149:'.
+Info: Processing symbol 'U118:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS150:'.
+Info: Processing symbol 'U119:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS151:'.
+Info: Processing symbol 'U120:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS152:'.
+Info: Processing symbol 'U121:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS153:'.
+Info: Processing symbol 'U122:SOIC16_TOS'.
+Info: Processing symbol 'LS154:'.
+Info: Processing symbol 'U123:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS155:'.
+Info: Processing symbol 'U124:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS156:'.
+Info: Processing symbol 'U125:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS157:'.
+Info: Processing symbol 'U126:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS158:'.
+Info: Processing symbol 'U127:SOIC16_TOS'.
+Info: Processing symbol 'LS159:'.
+Info: Processing symbol 'U128:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS160:'.
+Info: Processing symbol 'U129:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS161:'.
+Info: Processing symbol 'U130:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS162:'.
+Info: Processing symbol 'U131:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS163:'.
+Info: Processing symbol 'U132:SOIC16_TOS'.
+Info: Processing symbol 'LS164:'.
+Info: Processing symbol 'U133:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS165:'.
+Info: Processing symbol 'U134:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS166:'.
+Info: Processing symbol 'U135:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS167:'.
+Info: Processing symbol 'U136:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS168:'.
+Info: Processing symbol 'U137:SOIC16_TOS'.
+Info: Processing symbol 'LS169:'.
+Info: Processing symbol 'U138:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS170:'.
+Info: Processing symbol 'U139:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS171:'.
+Info: Processing symbol 'U140:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS172:'.
+Info: Processing symbol 'U141:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS173:'.
+Info: Processing symbol 'U142:SOIC16_TOS'.
+Info: Processing symbol 'LS174:'.
+Info: Processing symbol 'U143:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS175:'.
+Info: Processing symbol 'U144:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS176:'.
+Info: Processing symbol 'U145:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS177:'.
+Info: Processing symbol 'U146:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS178:'.
+Info: Processing symbol 'U147:SOIC16_TOS'.
+Info: Processing symbol 'LS179:'.
+Info: Processing symbol 'U148:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS180:'.
+Info: Processing symbol 'U149:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS181:'.
+Info: Processing symbol 'U150:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS182:'.
+Info: Processing symbol 'U151:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS183:'.
+Info: Processing symbol 'U152:SOIC16_TOS'.
+Info: Processing symbol 'LS184:'.
+Info: Processing symbol 'U153:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS185:'.
+Info: Processing symbol 'U154:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS186:'.
+Info: Processing symbol 'U155:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS187:'.
+Info: Processing symbol 'U156:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS188:'.
+Info: Processing symbol 'U157:SOIC16_TOS'.
+Info: Processing symbol 'LS189:'.
+Info: Processing symbol 'U158:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS190:'.
+Info: Processing symbol 'U159:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS191:'.
+Info: Processing symbol 'U160:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS192:'.
+Info: Processing symbol 'U161:MLF-8_ML_MCH'.
+Info: Processing symbol 'LS193:'.
+Info: Total warnings: 0, errors: 449.
+
+
+Error: Cannot add C3 (no footprint assigned).
+Error: Cannot add C4 (no footprint assigned).
+Error: Cannot add C5 (no footprint assigned).
+Error: Cannot add C6 (no footprint assigned).
+Error: Cannot add C7 (no footprint assigned).
+Error: Cannot add C8 (no footprint assigned).
+Error: Cannot add C9 (no footprint assigned).
+Error: Cannot add C10 (no footprint assigned).
+Error: Cannot add C11 (no footprint assigned).
+Error: Cannot add C12 (no footprint assigned).
+Error: Cannot add C13 (no footprint assigned).
+Error: Cannot add C14 (no footprint assigned).
+Error: Cannot add C15 (no footprint assigned).
+Error: Cannot add C16 (no footprint assigned).
+Error: Cannot add C17 (no footprint assigned).
+Error: Cannot add C18 (no footprint assigned).
+Error: Cannot add C19 (no footprint assigned).
+Error: Cannot add C20 (no footprint assigned).
+Error: Cannot add C21 (no footprint assigned).
+Error: Cannot add C22 (no footprint assigned).
+Error: Cannot add C23 (no footprint assigned).
+Error: Cannot add C24 (no footprint assigned).
+Error: Cannot add C25 (no footprint assigned).
+Error: Cannot add C26 (no footprint assigned).
+Error: Cannot add C27 (no footprint assigned).
+Error: Cannot add C28 (no footprint assigned).
+Error: Cannot add C29 (no footprint assigned).
+Error: Cannot add C30 (no footprint assigned).
+Error: Cannot add C31 (no footprint assigned).
+Error: Cannot add C32 (no footprint assigned).
+Error: Cannot add LS1 (no footprint assigned).
+Error: Cannot add LS2 (no footprint assigned).
+Error: Cannot add LS3 (no footprint assigned).
+Error: Cannot add LS4 (no footprint assigned).
+Error: Cannot add LS5 (no footprint assigned).
+Error: Cannot add LS6 (no footprint assigned).
+Error: Cannot add LS7 (no footprint assigned).
+Error: Cannot add LS8 (no footprint assigned).
+Error: Cannot add LS9 (no footprint assigned).
+Error: Cannot add LS10 (no footprint assigned).
+Error: Cannot add LS11 (no footprint assigned).
+Error: Cannot add LS12 (no footprint assigned).
+Error: Cannot add LS13 (no footprint assigned).
+Error: Cannot add LS14 (no footprint assigned).
+Error: Cannot add LS15 (no footprint assigned).
+Error: Cannot add LS16 (no footprint assigned).
+Error: Cannot add LS17 (no footprint assigned).
+Error: Cannot add LS18 (no footprint assigned).
+Error: Cannot add LS19 (no footprint assigned).
+Error: Cannot add LS20 (no footprint assigned).
+Error: Cannot add LS21 (no footprint assigned).
+Error: Cannot add LS22 (no footprint assigned).
+Error: Cannot add LS23 (no footprint assigned).
+Error: Cannot add LS24 (no footprint assigned).
+Error: Cannot add LS25 (no footprint assigned).
+Error: Cannot add LS26 (no footprint assigned).
+Error: Cannot add LS27 (no footprint assigned).
+Error: Cannot add LS28 (no footprint assigned).
+Error: Cannot add LS29 (no footprint assigned).
+Error: Cannot add LS30 (no footprint assigned).
+Error: Cannot add LS31 (no footprint assigned).
+Error: Cannot add LS32 (no footprint assigned).
+Error: Cannot add LS33 (no footprint assigned).
+Error: Cannot add LS34 (no footprint assigned).
+Error: Cannot add LS35 (no footprint assigned).
+Error: Cannot add LS36 (no footprint assigned).
+Error: Cannot add LS37 (no footprint assigned).
+Error: Cannot add LS38 (no footprint assigned).
+Error: Cannot add LS39 (no footprint assigned).
+Error: Cannot add LS40 (no footprint assigned).
+Error: Cannot add LS41 (no footprint assigned).
+Error: Cannot add LS42 (no footprint assigned).
+Error: Cannot add LS43 (no footprint assigned).
+Error: Cannot add LS44 (no footprint assigned).
+Error: Cannot add LS45 (no footprint assigned).
+Error: Cannot add LS46 (no footprint assigned).
+Error: Cannot add LS47 (no footprint assigned).
+Error: Cannot add LS48 (no footprint assigned).
+Error: Cannot add LS49 (no footprint assigned).
+Error: Cannot add LS50 (no footprint assigned).
+Error: Cannot add LS51 (no footprint assigned).
+Error: Cannot add LS52 (no footprint assigned).
+Error: Cannot add LS53 (no footprint assigned).
+Error: Cannot add LS54 (no footprint assigned).
+Error: Cannot add LS55 (no footprint assigned).
+Error: Cannot add LS56 (no footprint assigned).
+Error: Cannot add LS57 (no footprint assigned).
+Error: Cannot add LS58 (no footprint assigned).
+Error: Cannot add LS59 (no footprint assigned).
+Error: Cannot add LS60 (no footprint assigned).
+Error: Cannot add LS61 (no footprint assigned).
+Error: Cannot add LS62 (no footprint assigned).
+Error: Cannot add LS63 (no footprint assigned).
+Error: Cannot add LS64 (no footprint assigned).
+Error: Cannot add LS65 (no footprint assigned).
+Error: Cannot add LS66 (no footprint assigned).
+Error: Cannot add LS67 (no footprint assigned).
+Error: Cannot add LS68 (no footprint assigned).
+Error: Cannot add LS69 (no footprint assigned).
+Error: Cannot add LS70 (no footprint assigned).
+Error: Cannot add LS71 (no footprint assigned).
+Error: Cannot add LS72 (no footprint assigned).
+Error: Cannot add LS73 (no footprint assigned).
+Error: Cannot add LS74 (no footprint assigned).
+Error: Cannot add LS75 (no footprint assigned).
+Error: Cannot add LS76 (no footprint assigned).
+Error: Cannot add LS77 (no footprint assigned).
+Error: Cannot add LS78 (no footprint assigned).
+Error: Cannot add LS79 (no footprint assigned).
+Error: Cannot add LS80 (no footprint assigned).
+Error: Cannot add LS81 (no footprint assigned).
+Error: Cannot add LS82 (no footprint assigned).
+Error: Cannot add LS83 (no footprint assigned).
+Error: Cannot add LS84 (no footprint assigned).
+Error: Cannot add LS85 (no footprint assigned).
+Error: Cannot add LS86 (no footprint assigned).
+Error: Cannot add LS87 (no footprint assigned).
+Error: Cannot add LS88 (no footprint assigned).
+Error: Cannot add LS89 (no footprint assigned).
+Error: Cannot add LS90 (no footprint assigned).
+Error: Cannot add LS91 (no footprint assigned).
+Error: Cannot add LS92 (no footprint assigned).
+Error: Cannot add LS93 (no footprint assigned).
+Error: Cannot add LS94 (no footprint assigned).
+Error: Cannot add LS95 (no footprint assigned).
+Error: Cannot add LS96 (no footprint assigned).
+Error: Cannot add LS97 (no footprint assigned).
+Error: Cannot add LS98 (no footprint assigned).
+Error: Cannot add LS99 (no footprint assigned).
+Error: Cannot add LS100 (no footprint assigned).
+Error: Cannot add LS101 (no footprint assigned).
+Error: Cannot add LS102 (no footprint assigned).
+Error: Cannot add LS103 (no footprint assigned).
+Error: Cannot add LS104 (no footprint assigned).
+Error: Cannot add LS105 (no footprint assigned).
+Error: Cannot add LS106 (no footprint assigned).
+Error: Cannot add LS107 (no footprint assigned).
+Error: Cannot add LS108 (no footprint assigned).
+Error: Cannot add LS109 (no footprint assigned).
+Error: Cannot add LS110 (no footprint assigned).
+Error: Cannot add LS111 (no footprint assigned).
+Error: Cannot add LS112 (no footprint assigned).
+Error: Cannot add LS113 (no footprint assigned).
+Error: Cannot add LS114 (no footprint assigned).
+Error: Cannot add LS115 (no footprint assigned).
+Error: Cannot add LS116 (no footprint assigned).
+Error: Cannot add LS117 (no footprint assigned).
+Error: Cannot add LS118 (no footprint assigned).
+Error: Cannot add LS119 (no footprint assigned).
+Error: Cannot add LS120 (no footprint assigned).
+Error: Cannot add LS121 (no footprint assigned).
+Error: Cannot add LS122 (no footprint assigned).
+Error: Cannot add LS123 (no footprint assigned).
+Error: Cannot add LS124 (no footprint assigned).
+Error: Cannot add LS125 (no footprint assigned).
+Error: Cannot add LS126 (no footprint assigned).
+Error: Cannot add LS127 (no footprint assigned).
+Error: Cannot add LS128 (no footprint assigned).
+Error: Cannot add LS129 (no footprint assigned).
+Error: Cannot add LS130 (no footprint assigned).
+Error: Cannot add LS131 (no footprint assigned).
+Error: Cannot add LS132 (no footprint assigned).
+Error: Cannot add LS133 (no footprint assigned).
+Error: Cannot add LS134 (no footprint assigned).
+Error: Cannot add LS135 (no footprint assigned).
+Error: Cannot add LS136 (no footprint assigned).
+Error: Cannot add LS137 (no footprint assigned).
+Error: Cannot add LS138 (no footprint assigned).
+Error: Cannot add LS139 (no footprint assigned).
+Error: Cannot add LS140 (no footprint assigned).
+Error: Cannot add LS141 (no footprint assigned).
+Error: Cannot add LS142 (no footprint assigned).
+Error: Cannot add LS143 (no footprint assigned).
+Error: Cannot add LS144 (no footprint assigned).
+Error: Cannot add LS145 (no footprint assigned).
+Error: Cannot add LS146 (no footprint assigned).
+Error: Cannot add LS147 (no footprint assigned).
+Error: Cannot add LS148 (no footprint assigned).
+Error: Cannot add LS149 (no footprint assigned).
+Error: Cannot add LS150 (no footprint assigned).
+Error: Cannot add LS151 (no footprint assigned).
+Error: Cannot add LS152 (no footprint assigned).
+Error: Cannot add LS153 (no footprint assigned).
+Error: Cannot add LS154 (no footprint assigned).
+Error: Cannot add LS155 (no footprint assigned).
+Error: Cannot add LS156 (no footprint assigned).
+Error: Cannot add LS157 (no footprint assigned).
+Error: Cannot add LS158 (no footprint assigned).
+Error: Cannot add LS159 (no footprint assigned).
+Error: Cannot add LS160 (no footprint assigned).
+Error: Cannot add LS161 (no footprint assigned).
+Error: Cannot add LS162 (no footprint assigned).
+Error: Cannot add LS163 (no footprint assigned).
+Error: Cannot add LS164 (no footprint assigned).
+Error: Cannot add LS165 (no footprint assigned).
+Error: Cannot add LS166 (no footprint assigned).
+Error: Cannot add LS167 (no footprint assigned).
+Error: Cannot add LS168 (no footprint assigned).
+Error: Cannot add LS169 (no footprint assigned).
+Error: Cannot add LS170 (no footprint assigned).
+Error: Cannot add LS171 (no footprint assigned).
+Error: Cannot add LS172 (no footprint assigned).
+Error: Cannot add LS173 (no footprint assigned).
+Error: Cannot add LS174 (no footprint assigned).
+Error: Cannot add LS175 (no footprint assigned).
+Error: Cannot add LS176 (no footprint assigned).
+Error: Cannot add LS177 (no footprint assigned).
+Error: Cannot add LS178 (no footprint assigned).
+Error: Cannot add LS179 (no footprint assigned).
+Error: Cannot add LS180 (no footprint assigned).
+Error: Cannot add LS181 (no footprint assigned).
+Error: Cannot add LS182 (no footprint assigned).
+Error: Cannot add LS183 (no footprint assigned).
+Error: Cannot add LS184 (no footprint assigned).
+Error: Cannot add LS185 (no footprint assigned).
+Error: Cannot add LS186 (no footprint assigned).
+Error: Cannot add LS187 (no footprint assigned).
+Error: Cannot add LS188 (no footprint assigned).
+Error: Cannot add LS189 (no footprint assigned).
+Error: Cannot add LS190 (no footprint assigned).
+Error: Cannot add LS191 (no footprint assigned).
+Error: Cannot add LS192 (no footprint assigned).
+Error: Cannot add LS193 (no footprint assigned).
+Error: Cannot add U50 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS250 (no footprint assigned).
+Error: Cannot add U51 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS222 (no footprint assigned).
+Error: Cannot add U52 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS251 (no footprint assigned).
+Error: Cannot add U53 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS208 (no footprint assigned).
+Error: Cannot add U54 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS252 (no footprint assigned).
+Error: Cannot add U55 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS223 (no footprint assigned).
+Error: Cannot add U56 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS253 (no footprint assigned).
+Error: Cannot add U57 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS201 (no footprint assigned).
+Error: Cannot add U58 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS254 (no footprint assigned).
+Error: Cannot add U59 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS224 (no footprint assigned).
+Error: Cannot add U60 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS255 (no footprint assigned).
+Error: Cannot add U61 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS209 (no footprint assigned).
+Error: Cannot add U62 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS256 (no footprint assigned).
+Error: Cannot add U63 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS225 (no footprint assigned).
+Error: Cannot add U64 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add u1 (no footprint assigned).
+Error: Cannot add U65 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS194 (no footprint assigned).
+Error: Cannot add U66 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U2 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U67 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS226 (no footprint assigned).
+Error: Cannot add U68 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U3 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U69 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS210 (no footprint assigned).
+Error: Cannot add U70 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U4 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U71 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS227 (no footprint assigned).
+Error: Cannot add U72 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U5 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U73 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS202 (no footprint assigned).
+Error: Cannot add U74 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U6 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U75 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS228 (no footprint assigned).
+Error: Cannot add U76 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U7 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U77 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS211 (no footprint assigned).
+Error: Cannot add U78 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U8 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U79 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS229 (no footprint assigned).
+Error: Cannot add U80 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U9 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U81 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS198 (no footprint assigned).
+Error: Cannot add U82 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U10 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U83 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS230 (no footprint assigned).
+Error: Cannot add U84 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U11 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U85 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS212 (no footprint assigned).
+Error: Cannot add U86 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U12 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U87 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS231 (no footprint assigned).
+Error: Cannot add U88 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U13 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U89 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS203 (no footprint assigned).
+Error: Cannot add U90 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U14 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U91 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS232 (no footprint assigned).
+Error: Cannot add U92 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U15 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U93 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS213 (no footprint assigned).
+Error: Cannot add U94 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U16 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U95 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS233 (no footprint assigned).
+Error: Cannot add U96 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U17 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U97 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS196 (no footprint assigned).
+Error: Cannot add U98 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U18 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U99 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS234 (no footprint assigned).
+Error: Cannot add U100 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U19 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U101 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS214 (no footprint assigned).
+Error: Cannot add U102 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U20 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U103 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS235 (no footprint assigned).
+Error: Cannot add U104 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U21 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U105 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS204 (no footprint assigned).
+Error: Cannot add U106 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U22 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U107 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS236 (no footprint assigned).
+Error: Cannot add U108 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U23 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U109 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS215 (no footprint assigned).
+Error: Cannot add U110 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U24 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U111 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS237 (no footprint assigned).
+Error: Cannot add U112 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U25 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U113 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS199 (no footprint assigned).
+Error: Cannot add U114 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U26 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U115 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS238 (no footprint assigned).
+Error: Cannot add U116 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U27 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U117 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS216 (no footprint assigned).
+Error: Cannot add U118 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U28 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U119 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS239 (no footprint assigned).
+Error: Cannot add U120 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U29 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U121 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS205 (no footprint assigned).
+Error: Cannot add U122 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U30 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U123 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS240 (no footprint assigned).
+Error: Cannot add U124 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U31 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U125 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS217 (no footprint assigned).
+Error: Cannot add U126 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U32 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U127 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS241 (no footprint assigned).
+Error: Cannot add U128 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U33 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U129 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS195 (no footprint assigned).
+Error: Cannot add U130 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U34 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U131 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS242 (no footprint assigned).
+Error: Cannot add U132 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U35 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U133 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS218 (no footprint assigned).
+Error: Cannot add U134 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U36 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U135 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS243 (no footprint assigned).
+Error: Cannot add U136 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U37 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U137 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS206 (no footprint assigned).
+Error: Cannot add U138 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U38 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U139 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS244 (no footprint assigned).
+Error: Cannot add U140 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U39 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U141 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS219 (no footprint assigned).
+Error: Cannot add U142 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U40 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U143 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS245 (no footprint assigned).
+Error: Cannot add U144 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U41 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U145 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS200 (no footprint assigned).
+Error: Cannot add U146 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U42 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U147 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS246 (no footprint assigned).
+Error: Cannot add U148 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U43 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U149 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS220 (no footprint assigned).
+Error: Cannot add U150 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U44 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U151 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS247 (no footprint assigned).
+Error: Cannot add U152 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U45 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U153 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS207 (no footprint assigned).
+Error: Cannot add U154 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U46 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U155 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS248 (no footprint assigned).
+Error: Cannot add U156 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U47 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add U157 (footprint 'SOIC16_TOS' not found).
+Error: Cannot add LS221 (no footprint assigned).
+Error: Cannot add U158 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U48 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U159 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add LS249 (no footprint assigned).
+Error: Cannot add U160 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U49 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add U161 (footprint 'MLF-8_ML_MCH' not found).
+Error: Cannot add C1 (no footprint assigned).
+Error: Cannot add C2 (no footprint assigned).
+Error: Cannot add LS197 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 449.
