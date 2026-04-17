@@ -1,0 +1,6 @@
+#Start recording tcl command: 4/17/2026 18:50:45
+#Project Location: /mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/test1; Project name: finding_spiFlash
+prj_project new -name "finding_spiFlash" -impl "impl1" -dev LFE5U-25F-6BG256C -synthesis "lse"
+prj_project save
+prj_src add "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/test1/asdfasdf.vhd"
+#Stop recording: 4/17/2026 19:00:14
