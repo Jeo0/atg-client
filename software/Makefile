@@ -24,7 +24,11 @@ OBJS     := $(OBJS_CPP) $(OBJS_C)
 CXX = g++
 CC = gcc
 
-INCLUDES = -I$(INC_DIR) -I$(INC_DIR)/imgui
+INCLUDES = -I$(INC_DIR) \
+		   -I$(INC_DIR)/imgui
+		   # -I$(INC_DIR)/imgui \
+		   # -I$(INC_DIR)/opengltings \
+		   # -I$(INC_DIR)/window
 
 CXXFLAGS = -std=c++14 $(INCLUDES) -g -Wall -Wformat
 CFLAGS = $(INCLUDES) -g -Wall -Wformat
