@@ -1,7 +1,7 @@
 # atg-client
 
 > **Automatic Trajectory Generator Client** — A cross-platform desktop application for acoustic volumetric displays.
-> *(Undergraduate thesis project 🎓)*
+> *(Undergraduate thesis project)*
 
 ---
 
