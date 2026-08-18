@@ -424,7 +424,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 102.87 85.09)
+			(xy 43.18 35.56) (xy 48.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -434,7 +434,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 87.63) (xy 102.87 87.63)
+			(xy 43.18 38.1) (xy 48.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -444,7 +444,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 107.95 85.09 0)
+		(at 53.34 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -453,7 +453,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d1b90dc-afbb-4634-8c27-df1f5f9d925b")
 		(property "Reference" "J1"
-			(at 110.49 85.0899 0)
+			(at 55.88 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +462,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 110.49 87.6299 0)
+			(at 55.88 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 85.09 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,7 +480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 85.09 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +489,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 107.95 85.09 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +514,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 85.09 270)
+		(at 43.18 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -523,7 +523,7 @@
 		(fields_autoplaced yes)
 		(uuid "39dc4c1f-b069-4a4e-a2ca-3127d92a1e30")
 		(property "Reference" "#PWR02"
-			(at 91.44 85.09 0)
+			(at 36.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 85.0899 90)
+			(at 39.37 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 85.09 0)
+			(at 43.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 85.09 0)
+			(at 43.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 85.09 0)
+			(at 43.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,7 +581,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 97.79 87.63 90)
+		(at 43.18 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -590,7 +590,7 @@
 		(fields_autoplaced yes)
 		(uuid "80ff1111-669a-4a22-8519-a9cd2fc4b822")
 		(property "Reference" "#PWR01"
-			(at 101.6 87.63 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +599,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 93.98 87.6299 90)
+			(at 39.37 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 87.63 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,7 +617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 87.63 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,7 +626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 97.79 87.63 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
