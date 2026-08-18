@@ -1,0 +1,248 @@
+[
+  {
+    "file": "src/3rdparty/imgui/imgui.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui/imgui.o",
+      "src/3rdparty/imgui/imgui.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui/imgui.o"
+  },
+  {
+    "file": "src/3rdparty/imgui/imgui_demo.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui/imgui_demo.o",
+      "src/3rdparty/imgui/imgui_demo.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui/imgui_demo.o"
+  },
+  {
+    "file": "src/3rdparty/imgui/imgui_draw.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui/imgui_draw.o",
+      "src/3rdparty/imgui/imgui_draw.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui/imgui_draw.o"
+  },
+  {
+    "file": "src/3rdparty/imgui/imgui_tables.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui/imgui_tables.o",
+      "src/3rdparty/imgui/imgui_tables.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui/imgui_tables.o"
+  },
+  {
+    "file": "src/3rdparty/imgui/imgui_widgets.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui/imgui_widgets.o",
+      "src/3rdparty/imgui/imgui_widgets.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui/imgui_widgets.o"
+  },
+  {
+    "file": "src/3rdparty/imgui-backends/imgui_impl_glfw.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui-backends/imgui_impl_glfw.o",
+      "src/3rdparty/imgui-backends/imgui_impl_glfw.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui-backends/imgui_impl_glfw.o"
+  },
+  {
+    "file": "src/3rdparty/imgui-backends/imgui_impl_opengl3.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/3rdparty/imgui-backends/imgui_impl_opengl3.o",
+      "src/3rdparty/imgui-backends/imgui_impl_opengl3.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/3rdparty/imgui-backends/imgui_impl_opengl3.o"
+  },
+  {
+    "file": "src/core/event.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/core/event.o",
+      "src/core/event.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/core/event.o"
+  },
+  {
+    "file": "src/core/guiApp.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/core/guiApp.o",
+      "src/core/guiApp.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/core/guiApp.o"
+  },
+  {
+    "file": "src/core/opengltings/glHelper.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/core/opengltings/glHelper.o",
+      "src/core/opengltings/glHelper.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/core/opengltings/glHelper.o"
+  },
+  {
+    "file": "src/core/window/imgui_custom.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/core/window/imgui_custom.o",
+      "src/core/window/imgui_custom.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/core/window/imgui_custom.o"
+  },
+  {
+    "file": "src/main.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/main.o"
+  },
+  {
+    "file": "src/glad.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-I./include/imgui",
+      "-I./include/core",
+      "-g",
+      "-Wall",
+      "-Wformat",
+      "-c",
+      "-o",
+      "build/objects/./src/glad.o",
+      "src/glad.c"
+    ],
+    "directory": "/mnt/microsdko/school/4thyr/thesis/actual/software",
+    "output": "build/objects/./src/glad.o"
+  }
+]

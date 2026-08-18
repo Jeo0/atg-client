@@ -6,3 +6,30 @@
 - declutter imgui boiler plates on the main file
 - show triangle with opengl in an imgui "window"??
 - load 3d models 
+
+1. 
+C++ design patterns
+https://refactoring.guru/design-patterns/cpp
+
+
+1.1. 
+===================uml class diagram
+    Class Diagrams: The most frequently used structural diagram in C++, depicting classes, their member variables (attributes), member functions (methods), and relationships like inheritance and composition.
+    //------------- https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/
+    Sequence Diagrams: A behavioral diagram used to visualize how objects in a C++ system interact over time, typically showing the order of function calls.
+    Package Diagrams: Used to organize C++ code into logical groups, reflecting namespaces or physical file structures.
+    State Machine Diagrams: Crucial for systems with complex internal states, such as finite state machines (FSM) commonly found in embedded C++. 
+
+
+===================Tools for Generating UML from C++ Code
+Because manually maintaining diagrams is difficult, many developers use "reverse engineering" tools to generate diagrams directly from existing header and source files: 
+
+    clang-uml: An automatic generator that uses Clang to produce up-to-date class, sequence, and package diagrams in formats like PlantUML and MermaidJS.
+    Visual Paradigm: Supports round-trip engineering, allowing you to generate ANSI C++ code from diagrams and reverse engineer UML from existing code.
+    Doxygen: While primarily for documentation, it can generate inheritance and collaboration diagrams using Graphviz.
+    Software Ideas Modeler: Provides features to transform existing C++ source code into various UML diagram types.
+    hpp2plantuml: A focused tool specifically for converting C++ header files into PlantUML syntax. 
+
+
+2. follow cpp standards
+// --------------- https://wiki.openstack.org/wiki/CppCodingStandards#Header_Files

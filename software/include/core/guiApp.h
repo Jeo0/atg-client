@@ -11,7 +11,7 @@ public:
     void Shutdown();
 
 private:
-    void RenderUI(); // Put your actual ImGui window code here
+    void RenderUI(); 
 
     GLFWwindow* window = nullptr;
 };

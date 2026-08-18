@@ -25,7 +25,8 @@ CXX = g++
 CC = gcc
 
 INCLUDES = -I$(INC_DIR) \
-		   -I$(INC_DIR)/imgui
+		   -I$(INC_DIR)/imgui \
+		   -I$(INC_DIR)/core
 		   # -I$(INC_DIR)/imgui \
 		   # -I$(INC_DIR)/opengltings \
 		   # -I$(INC_DIR)/window
