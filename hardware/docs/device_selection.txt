@@ -384,6 +384,12 @@ jlcpcb mag aassemble
         resistor 
         ferrite beads
         ++++ buck converters 
+        fpga tqfp
+
+
+        driver 
+        transducer
+
 
         mounting pin 
         - etc

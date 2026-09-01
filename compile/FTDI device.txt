@@ -1,7 +1,10 @@
-FT4232H mini breakout board (4 channels)
-https://ftdichip.com/products/ft4232h-mini-module/
+FT2232H mini breakout board (2 channels)
+https://www.mouser.ph/en/ProductDetail/FTDI/FT2232H-MINI-MODULE?qs=pB3G9VbQXIf%252BpWyngo5ZjA%3D%3D
+https://ftdichip.com/wp-content/uploads/2020/07/DS_FT2232H_Mini_Module.pdf
+https://ftdichip.com/wp-content/uploads/2025/11/DS_FT2232H.pdf
 
 reason:
-- openmpd hardware is able to push more than 10k (actually around 13k) Updates Per Second (UPS) by sending 512 bytes (256 phases and 256 amplitudes) each update
-512 * 13000 / 1000000 = 6.6 mb; 
+- openmpd hardware is able to push more than 10k (actually around 13k) Updates Per Second (UPS) by sending 512 bytes (256 phases and 256 amplitudes) each update for one array board
+512bytes * 13000 / 1000 = 6.6 MB / seconds; so that's around 13.2 MB / seconds total that the pc will send to the master fpga. 
 - aside from runtime (sending of solver data from PC to FPGAs) need separate channel when flashing 
+
