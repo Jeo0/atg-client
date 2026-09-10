@@ -2,6 +2,7 @@
 
 > **Automatic Trajectory Generator Client** — A cross-platform desktop application for acoustic volumetric displays.
 > *(Undergraduate thesis project)*
+> see https://github.com/Jeo0/3rd-opengl-test for the desktop client status (to be merged here afterwards)
 
 ---
 
