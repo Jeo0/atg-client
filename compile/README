@@ -11,3 +11,5 @@ lattice:
 - https://www.latticesemi.com/products/fpgaandcpld/ecp5#_11D625E1D2C7406C96A5312C93FF0CBD
 
 
+the project files can be seen in: "hardware project/"
+see the "hardware/projects/fpgapcb/link.kicad_pro"
