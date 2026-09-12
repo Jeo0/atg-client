@@ -686,9 +686,29 @@
         "filename": "link.kicad_sch",
         "name": "link",
         "uuid": "de89ff7a-3cfc-4f81-afc2-8cb9be17c69a"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "614e1dc5-529f-4cb8-b507-3d41bfeee72e"
+      },
+      {
+        "filename": "debug_led.kicad_sch",
+        "name": "DEBUG_LED",
+        "uuid": "03ef9555-17a6-4c9b-a8d2-579bd7835477"
+      },
+      {
+        "filename": "ch340c.kicad_sch",
+        "name": "CH340C",
+        "uuid": "9c5ef320-ed14-4fbf-afec-63494d4e827d"
+      },
+      {
+        "filename": "array_board.kicad_sch",
+        "name": "ARRAY_BOARD",
+        "uuid": "6ee95b48-71d5-47eb-a0d0-d981eaeb0064"
       }
     ],
-    "used_designators": "U2,U5,U166,D3-13,#PWR323,#PWR356,#PWR358-359,#PWR369-379,#PWR381-386,#PWR471,#PWR509-523,#FLG2,J1,J3,J5-9,R1-3,R20-30,SW1",
+    "used_designators": "U1-6,U8-166,D1-13,#PWR1-359,#PWR368-379,#PWR381-386,#PWR389-450,#PWR453-454,#PWR457-495,#PWR498-523,R1-3,R14-30,#FLG1-5,J1,J3-9,SW1,C1-75,C84-108,L1-3,FB1,LS1-256,Ue1",
     "variants": []
   },
   "sheets": [
@@ -697,131 +717,151 @@
       "link"
     ],
     [
-      "876eef0a-7c95-4baf-96c3-b294699c08e5",
+      "614e1dc5-529f-4cb8-b507-3d41bfeee72e",
+      "Power"
+    ],
+    [
+      "124face8-58c2-4205-b12d-f1668bceff11",
+      "FPGA_POWER"
+    ],
+    [
+      "03ef9555-17a6-4c9b-a8d2-579bd7835477",
+      "DEBUG_LED"
+    ],
+    [
+      "9c5ef320-ed14-4fbf-afec-63494d4e827d",
+      "CH340C"
+    ],
+    [
+      "6ee95b48-71d5-47eb-a0d0-d981eaeb0064",
+      "ARRAY_BOARD"
+    ],
+    [
+      "0f3d2ce9-a47d-4cde-91c0-443c62ee87f5",
       "Transducer"
     ],
     [
-      "83a93880-0881-4efb-acc8-febbce43c21c",
+      "e81309cc-8600-4138-af39-1975e5a96119",
       "Transducer2"
     ],
     [
-      "91a77dee-2cbc-4341-ba68-ba9d52f4433f",
+      "bc6a9bfe-12aa-4dc3-81f7-a8100d824617",
       "Transducer3"
     ],
     [
-      "72c8a749-5ca9-458e-af69-d5820d7bd208",
+      "fb1f86fa-6786-4682-85d2-4316d67235c4",
       "Transducer4"
     ],
     [
-      "f2e97e55-31bb-4d19-9e74-c05a73e9438c",
+      "7847a8eb-a62b-4542-88a4-8aa5ffe1e305",
       "Transducer5"
     ],
     [
-      "d2eed489-9476-4963-a860-93af25677625",
+      "9b0773f2-9277-43b1-8255-51cc98bb0101",
       "Transducer6"
     ],
     [
-      "b61b277f-e1ee-4140-8f6d-e2ac3fb85bcc",
+      "0debcbe6-46ed-40bc-8a5e-65d36a09750f",
       "Transducer7"
     ],
     [
-      "6f702810-cb0b-4787-929d-3782ac4d996d",
+      "39d1a75b-743f-4d6a-91a1-9e846e4b60b2",
       "Transducer8"
     ],
     [
-      "a1ddc5d8-707d-4ddf-a076-bc57906a38af",
+      "9571a30d-63af-4046-90b1-935962e31018",
       "Transducer9"
     ],
     [
-      "866b7d26-fbab-4a29-ac8a-716b51a2d277",
+      "8f19b3c8-eaf0-4254-956c-7356016fbc52",
       "Transducer10"
     ],
     [
-      "6f26957a-8d07-4eda-96d5-5a624aa4657f",
+      "2a84e413-9adc-474c-ad97-e90d39874137",
       "Transducer11"
     ],
     [
-      "489ba234-3341-4f7f-a062-35ea1ca2506d",
+      "b6a94438-2e72-43c9-b601-b3dc4a91298b",
       "Transducer12"
     ],
     [
-      "e73d3d87-3f5a-478e-bfb0-acac3f12a4ee",
+      "f1474ead-3c7b-405f-a46e-33cbf510149c",
       "Transducer13"
     ],
     [
-      "c99f95ab-5583-4ecc-8e6b-c05bd485b8db",
+      "55e343a8-b6b1-4021-b1a1-77d085e68e0e",
       "Transducer14"
     ],
     [
-      "782e7ceb-eb75-479b-bd37-f2a58b756c48",
+      "e770d491-2ff4-466d-baa8-3c83515e5b31",
       "Transducer15"
     ],
     [
-      "78719e27-d194-4987-bb02-1c2367cec977",
+      "4f3817b3-e18f-4826-9dcc-0fb811667f8f",
       "Transducer16"
     ],
     [
-      "67b7da34-26d4-4e29-8013-30697cdde227",
+      "a76389a8-a862-4faa-8be3-23f8eb0f86df",
       "Transducer17"
     ],
     [
-      "2ad65f9d-0c70-410f-81dd-de8faa53f7d0",
+      "437fc688-715f-4844-bc57-9a24b13e1c98",
       "Transducer18"
     ],
     [
-      "5b5eac62-a3e2-4311-a3df-7b73c2c75b0f",
+      "68760d21-cfdf-4791-b565-45fd9eb6c534",
       "Transducer19"
     ],
     [
-      "d0a4bc0f-9cb0-4f89-bf0f-cd86928de3be",
+      "26cc5eb5-0794-4a43-8c98-ea4432e52e13",
       "Transducer20"
     ],
     [
-      "069fffe0-4d06-41ed-a9ac-983598f87121",
+      "7432f334-c028-407f-9daf-276c261a5415",
       "Transducer21"
     ],
     [
-      "aa7099af-7580-4ff4-a0eb-8d6712b91acf",
+      "9605d016-4845-4e6b-85b4-e0a923d2dab6",
       "Transducer22"
     ],
     [
-      "87120d48-1478-4074-a263-e674dce905e6",
+      "430ff2e7-10cf-4d8c-aed5-06f5b39df636",
       "Transducer23"
     ],
     [
-      "6f22e9d5-107b-4b3e-8448-d4b04aeaacc1",
+      "e70ede01-f88e-497c-9eed-a34fadeeb58d",
       "Transducer24"
     ],
     [
-      "4e2eb96a-79a4-4eca-9050-e1cf92e38d53",
+      "6252d687-0086-40c7-ab45-4eec5e18a762",
       "Transducer25"
     ],
     [
-      "9de839e7-c201-4743-9524-2953153142c2",
+      "5baf0e5c-4b13-4705-b751-bb8aab60e00a",
       "Transducer26"
     ],
     [
-      "d610000b-eb9a-4b9e-b07e-c4c60259f3f3",
+      "5580b349-0bc5-4879-b3bc-e0ff772d5781",
       "Transducer27"
     ],
     [
-      "2af3eb8d-027b-4d42-96cb-8c8d74677334",
+      "ecf2d7ae-cc1c-441d-962c-908d2463317a",
       "Transducer28"
     ],
     [
-      "ec896df7-bd3a-4822-89ff-29c5b11cd462",
+      "85bdff74-d09f-456e-8bfa-061a70476c7f",
       "Transducer29"
     ],
     [
-      "92173907-5826-4337-95ab-4fa2db1c4c19",
+      "fad21378-2237-4a20-b124-485d0a35e6be",
       "Transducer30"
     ],
     [
-      "0e98a18a-4706-464f-8ca4-3313ae39cfaf",
+      "c186e192-bc23-4ef1-869f-0357b43f2248",
       "Transducer31"
     ],
     [
-      "0a989061-122f-48f5-b3f0-b60241015059",
+      "c263ab29-0da3-4414-903a-3a6e0becb5f4",
       "Transducer32"
     ]
   ],
