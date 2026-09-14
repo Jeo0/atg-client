@@ -17,3 +17,8 @@
 
 # notes_programming:
 - file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+
+
+# notes_IObanks:
+- file1: FPGA-TN-02032-1-4-ECP5-ECP5G-sysIO-Usage-Guide.pdf
+- ground (0v) any Vccio if that bank is unused. see file1 page 8

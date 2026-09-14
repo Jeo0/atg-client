@@ -1,0 +1,14 @@
+#Start recording tcl command: 9/15/2026 02:43:56
+#Project Location: /mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1; Project name: yeay
+prj_project new -name "yeay" -impl "impl1" -dev LFE5U-25F-7TG144C -synthesis "synplify"
+prj_project save
+prj_src add "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1/count1.v"
+prj_run Export -impl impl1 -task Bitgen
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapVerilogSimFile
+prj_run Translate -impl impl1
+prj_run Map -impl impl1 -task MapVHDLSimFile
+prj_run PAR -impl impl1 -task PARTrace
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task PARTrace
+#Stop recording: 9/15/2026 03:54:15

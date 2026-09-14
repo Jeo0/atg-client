@@ -1,0 +1,90 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "02:48:10    15-Sep-2026",
+	"Working Directory" : "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1/impl1",
+	"CDPL Log file" : "-",
+	"Install" : "/usr/local/diamond/3.14/synpbase"
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "02:48:10",
+   "Runtime" : "00s",
+   "Executable Run Time" : "00s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "02:48:10",
+      "Runtime" : "00s",
+      "Executable Run Time" : "00s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "02:48:10",
+         "Runtime" : "00s",
+         "Executable Run Time" : "00s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "02:48:10",
+            "Runtime" : "00s",
+            "Executable Run Time" : "00s",
+            "compiler" : {
+               "executable" : "bin/c_hdl",
+               "Run Directory" : "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "2",
+               "Has Errors" : "yes",
+               "Run Start Time" : "02:48:10",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "37.764000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin/syn_nfilter",
+               "Run Directory" : "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1/impl1",
+               "Run State" : "Canceled",
+               "Return Code" : "-",
+               "Has Errors" : "yes",
+               "Run Start Time" : "-",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin/m_gen_lattice",
+            "Run Directory" : "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1/impl1",
+            "Run State" : "Canceled",
+            "Return Code" : "-",
+            "Has Errors" : "yes",
+            "Run Start Time" : "-",
+            "Run Time" : "00s",
+            "Exe Run Time" : "00s",
+            "Memory Usage" : "-",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "-",
+         "Runtime" : "00s",
+         "Executable Run Time" : "00s",
+         "fpga_mapper" : {
+            "executable" : "bin/m_gen_lattice",
+            "Run Directory" : "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/UserGuide1/impl1",
+            "Run State" : "Canceled",
+            "Return Code" : "-",
+            "Has Errors" : "yes",
+            "Run Start Time" : "-",
+            "Run Time" : "00s",
+            "Exe Run Time" : "00s",
+            "Memory Usage" : "-",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}
