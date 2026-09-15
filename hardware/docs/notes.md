@@ -36,5 +36,9 @@
 - See file1 page 43: 2.14.1. sysI/O Buffer Banks
 - no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
 - banks left (6, 7) and right (2, 3) do not support that. Only banks up (0, 1) and bottom banks (8, 4)
-
+- devices that are hot swappable are: 
+    - transducer array board 
+    - CH340C debug 
+- devices that are not hot swappable (same thing above with hot socketing) are:
+    - FTDI device (FT2232H)
 

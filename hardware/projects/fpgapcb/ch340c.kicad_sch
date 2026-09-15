@@ -786,7 +786,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "CH340C"
+	(text_box "CH340C debug"
 		(exclude_from_sim no)
 		(at 111.76 45.72 0)
 		(size 59.69 87.63)
