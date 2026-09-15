@@ -38,7 +38,7 @@
 - banks left (6, 7) and right (2, 3) do not support that. Only banks up (0, 1) and bottom banks (8, 4)
 - devices that are hot swappable are: 
     - transducer array board  
-    - CH340C debug 
+    - CH340C debug (TX and RX remains connected regardless if device is connected to the port or not; IMPORTANT: ASSUMING the CH340C is powered by the board's own power, i.e. 3.3 V, and not powered through usb; right now it is powered through usb and thats not nice)
 - devices that are not hot swappable (same thing above with hot socketing) are:
     - FTDI device (FT2232H)
 
