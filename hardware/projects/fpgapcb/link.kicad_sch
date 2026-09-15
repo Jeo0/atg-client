@@ -7972,16 +7972,6 @@
 	)
 	(wire
 		(pts
-			(xy 621.03 191.77) (xy 631.19 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1751149-4817-4f40-9648-d7309e8acd24")
-	)
-	(wire
-		(pts
 			(xy 181.61 101.6) (xy 195.58 101.6)
 		)
 		(stroke
@@ -8242,6 +8232,16 @@
 	)
 	(wire
 		(pts
+			(xy 621.03 191.77) (xy 631.19 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98890c1-11e6-4ef4-9311-1fbe5efeba14")
+	)
+	(wire
+		(pts
 			(xy 194.31 143.51) (xy 207.01 143.51)
 		)
 		(stroke
@@ -8460,6 +8460,16 @@
 		)
 		(uuid "2f13952b-e959-4120-a09e-83ba99c42b69")
 	)
+	(label "MOSI{slash}DO"
+		(at 621.03 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34586648-3dbc-4347-ae15-3de58e957ee7")
+	)
 	(label "TDI1"
 		(at 96.52 111.76 0)
 		(effects
@@ -8610,7 +8620,7 @@
 		)
 		(uuid "51cdb99e-a23d-4b36-93a3-ed13bab9d5fa")
 	)
-	(label "MISO{slash}D1"
+	(label "MISO{slash}DI"
 		(at 285.75 222.25 0)
 		(effects
 			(font
@@ -8679,16 +8689,6 @@
 			(justify left bottom)
 		)
 		(uuid "6c6fcb0f-4e79-49b7-a186-706182cc75bb")
-	)
-	(label "MOSI{slash}D0"
-		(at 621.03 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "711e2863-3e71-4f6a-a7fb-7c7a7370df9e")
 	)
 	(label "CFG_2"
 		(at 521.97 87.63 0)
@@ -8860,7 +8860,7 @@
 		)
 		(uuid "8eff8e5a-127b-4590-bc02-12f939e35d22")
 	)
-	(label "MOSI{slash}D0"
+	(label "MOSI{slash}DO"
 		(at 285.75 224.79 0)
 		(effects
 			(font
@@ -9180,7 +9180,7 @@
 		)
 		(uuid "e26013bd-4530-439f-9a2a-21a9d2aca204")
 	)
-	(label "MISO{slash}D1"
+	(label "MISO{slash}DI"
 		(at 621.03 189.23 0)
 		(effects
 			(font

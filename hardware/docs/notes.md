@@ -9,9 +9,9 @@
 # notes_transducerPins: 
 - file1: FPGA-TN-02038-2-1-ECP5-and-ECP5-5G-Hardware-Checklist.pdf 
 - see table 2.1 for Vccio and banks from file1 page 8
-- si_t1 - si_t12 bank 1
-- si_t13 - si_t22 bank 0
-- si_t23 - si_t32 bank 8
+- si_t1 - si_t14 bank 1 
+- si_t15 - si_t24 bank 0 (NOTE: BAKA HINDI NA)
+- si_t25 - si_t32 bank 8
 
 
 
@@ -37,8 +37,10 @@
 - no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
 - banks left (6, 7) and right (2, 3) do not support that. Only banks up (0, 1) and bottom banks (8, 4)
 - devices that are hot swappable are: 
-    - transducer array board 
+    - transducer array board  (NOTE: BAKA HINDI NA)
     - CH340C debug 
 - devices that are not hot swappable (same thing above with hot socketing) are:
     - FTDI device (FT2232H)
+
+
 
