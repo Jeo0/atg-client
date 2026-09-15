@@ -5236,6 +5236,26 @@
 		)
 		(uuid "2f202e6e-eee7-4f92-89b3-7a7c3ae51db0")
 	)
+	(text "note_relayPins"
+		(exclude_from_sim no)
+		(at 201.93 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cf9a4cc-c72b-46d5-9fb7-55d0c4f2c177")
+	)
+	(text "note_deviceUsage"
+		(exclude_from_sim no)
+		(at 643.636 463.804 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "5ea09fcc-62ec-431e-aab5-3bd6f6022998")
+	)
 	(text "Programming SPI Flash"
 		(exclude_from_sim no)
 		(at 636.27 156.464 0)
