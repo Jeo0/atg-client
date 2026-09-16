@@ -5,10 +5,15 @@ The following files are where it can be found:
 - SupplementaryMaterial_GS-PAT_v2 = https://discovery.ucl.ac.uk/id/eprint/10106840/1/SupplementaryMaterial_GS-PAT_v2.pdf
 - GS_PAT_Overview = https://github.com/RMResearch/OpenMPD/blob/main/Docs/1.%20GS-PAT/GS_PAT_Overview.pdf
 - s2m2 algorithm: https://cdn.aaai.org/ojs/17340/17340-13-20834-1-2-20210518.pdf
+
+FTDI:
+- ftdi application notes: https://ftdichip.com/document/application-notes/
 - ftdi ft2232h = https://www.alldatasheet.com/datasheet-pdf/download/924191/FTDI/FT2232H-MINI.html
+- ftdi guide to jtag: https://ftdichip.com/wp-content/uploads/2020/08/AN_129_FTDI_Hi_Speed_USB_To_JTAG_Example.pdf
 
 lattice: 
 - https://www.latticesemi.com/products/fpgaandcpld/ecp5#_11D625E1D2C7406C96A5312C93FF0CBD
+
 
 
 the project files can be seen in: "hardware project/"

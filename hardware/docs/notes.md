@@ -43,4 +43,10 @@
     - FTDI device (FT2232H)
 
 
-
+# notes_ftdi:
+- file1: ftdi/FT2232H IC.PDF
+- file2: ftdi/DS_FT2232H_Mini_Module.pdf
+- file3: ftdi/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode
+- to lay the pins required by the databus on channel A, (file3) page 4 says what the pin numbers are described from the actual FT2232H chip (file1), the mini module's pinout is referred there (file2), or actually it's already available in (file2) page 9: schematic diagram. Channel B is then disabled as the resources from channel B 
+- to have achieve the requirement of writing from PC host to the AVD device of ~13MB/s, the FTDI should be set to FT245 style synchronous FIFO mode. See (file3) page 2. UNDER CONSTRUCTION
+- JTAG UNDER CONSTRUCTION

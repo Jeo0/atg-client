@@ -8,3 +8,5 @@ reason:
 512bytes * 13000 / 1000 = 6.6 MB / seconds; so that's around 13.2 MB / seconds total that the pc will send to the master fpga. 
 - aside from runtime (sending of solver data from PC to FPGAs) need separate channel when flashing 
 
+
+

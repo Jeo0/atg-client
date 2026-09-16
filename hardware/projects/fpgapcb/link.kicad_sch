@@ -5322,6 +5322,16 @@
 		)
 		(uuid "d3a3cdea-a9b4-4442-b8e7-40738f98f86c")
 	)
+	(text "note_ftdi"
+		(exclude_from_sim no)
+		(at 93.98 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0328484-aee5-4d9a-ba2a-53cd25e156c6")
+	)
 	(text_box "JTAG CIRCUIT"
 		(exclude_from_sim no)
 		(at 91.44 69.85 0)
