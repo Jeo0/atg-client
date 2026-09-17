@@ -713,7 +713,7 @@
         "uuid": "6ee95b48-71d5-47eb-a0d0-d981eaeb0064"
       }
     ],
-    "used_designators": "L1-3,SW1,J1,J3-9,#FLG1-5,R1-3,R14-30,LS1-256,FB1,#PWR1-359,#PWR368-379,#PWR381-386,#PWR389-450,#PWR453-454,#PWR457-495,#PWR498-523,C1-75,C84-108,D1-13,Ue1,U1-6,U8-166",
+    "used_designators": "L1-3,#PWR1-359,#PWR368-379,#PWR381-386,#PWR389-450,#PWR453-454,#PWR457-495,#PWR498-523,SW1,J1,J3-9,#FLG1-5,R1-3,R14-30,LS1-256,FB1,C1-75,C84-108,D1-13,Ue1,U1-6,U8-166",
     "variants": [
       {
         "description": "asdf",
