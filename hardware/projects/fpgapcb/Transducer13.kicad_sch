@@ -2521,9 +2521,9 @@
 		)
 		(uuid "fb047de3-4877-4815-9f35-80b1a5da86fa")
 	)
-	(global_label "SI_T13"
+	(global_label "ARRAY-SI_T13"
 		(shape input)
-		(at 82.55 25.4 90)
+		(at 82.55 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2533,7 +2533,7 @@
 		)
 		(uuid "7bafed38-4bcf-46e3-97b3-c70ab31a6ee7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 16.2463 90)
+			(at 82.55 13.9481 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2545,7 @@
 			)
 		)
 	)
-	(global_label "RCK"
+	(global_label "ARRAY-RCK"
 		(shape input)
 		(at 76.2 38.1 0)
 		(fields_autoplaced yes)
@@ -2569,7 +2569,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "ARRAY-SCK"
 		(shape input)
 		(at 76.2 35.56 0)
 		(fields_autoplaced yes)
@@ -2581,7 +2581,7 @@
 		)
 		(uuid "ea025374-62fb-41fb-bbb0-1ef9f5d9aed1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.5875 35.56 0)
+			(at 87.4901 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

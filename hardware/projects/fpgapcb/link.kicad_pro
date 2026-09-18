@@ -527,6 +527,36 @@
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "array-signal-netclass",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 14,
+        "line_style": 0,
+        "name": "power12v",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "slave-signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -538,6 +568,50 @@
       {
         "netclass": "Default",
         "pattern": "slash"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T(1|2|3|4|5|6|7|8|9)"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T1"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T2"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T3"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T4"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T5"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T6"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T7"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T8"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-SI_T9"
+      },
+      {
+        "netclass": "array-signal-netclass",
+        "pattern": "ARRAY-(RCK|SCK|SI_T1|SI_T2|SI_T3|SI_T4|SI_T5|SI_T6|SI_T7|SI_T8|SI_T9|SI_T10|SI_T11|SI_T12|SI_T13|SI_T14|SI_T15|SI_T16|SI_T17|SI_T18|SI_T19|SI_T20|SI_T21|SI_T22|SI_T23|SI_T24|SI_T25|SI_T26|SI_T27|SI_T28|SI_T29|SI_T30|SI_T31|SI_T32)"
       }
     ]
   },
@@ -713,7 +787,7 @@
         "uuid": "6ee95b48-71d5-47eb-a0d0-d981eaeb0064"
       }
     ],
-    "used_designators": "L1-3,#PWR1-359,#PWR368-379,#PWR381-387,#PWR389-450,#PWR453-454,#PWR457-495,#PWR498-523,LS1-256,FB1,SW1,J1,J3-9,#FLG1-5,R1-3,R14-30,C1-75,C84-108,D1-13,Ue1,U1-6,U8-166",
+    "used_designators": "L1-3,#PWR1-359,#PWR368-379,#PWR381-387,#PWR389-450,#PWR453-454,#PWR457-495,#PWR498-523,LS1-256,FB1,SW1,J1,J3-11,#FLG1-5,R1-3,R14-35,C1-75,C84-108,D1-13,Ue1,U1-6,U8-166",
     "variants": [
       {
         "description": "asdf",
