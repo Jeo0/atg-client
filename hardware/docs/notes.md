@@ -47,7 +47,8 @@
 - file1: ftdi/FT2232H IC.PDF
 - file2: ftdi/DS_FT2232H_Mini_Module.pdf
 - file3: ftdi/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode
-- to lay the pins required by the databus on channel A, (file3) page 4 says what the pin numbers are described from the actual FT2232H chip (file1), the mini module's pinout is referred there (file2), or actually it's already available in (file2) page 9: schematic diagram. Channel B is then disabled as the resources from channel B 
-- CN2-22, AC4/SIWU, is unused, so it is tied to VCCIO, see file3 table 1 page 4
+- the mini module has an FT2232HL IC (see figure 5.1 page 9 of file file2)
 - to have achieve the requirement of writing from PC host to the AVD device of ~13MB/s, the FTDI should be set to FT245 style synchronous FIFO mode. See (file3) page 2. UNDER CONSTRUCTION
-- JTAG UNDER CONSTRUCTION
+- The FTDI modes this project will need (MPSSE JTAG on channel B, then SYNC 245 FIFO style mode for channel B, vice-versa) can be configured through code. see 4.13.1 Do I need an EEPROM? page 46 of file1.
+- CN2-22, AC4/SIWU, is unused, so it is tied to VCCIO, see file3 table 1 page 4
+- JTAG pin through MPSSE (channel B) and 245 FIFO SYNC (channel A) pin connections are referred on table 3.1 of file1 page 9 
