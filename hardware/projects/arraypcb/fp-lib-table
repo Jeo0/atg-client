@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/JC/OneDrive/Documents/LFE5U-25F-7TG144C/Library.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/JC/OneDrive/Documents/tesis/atg-client/hardware/lib/LFE5U-25F-7TG144C/Library.pretty") (options "") (descr ""))
+	(lib (name "LFE5U-25F-7TG144C") (type "KiCad") (uri "C:/Users/JC/OneDrive/Documents/tesis/atg-client/hardware/lib/LFE5U-25F-7TG144C/LFE5U-25F-7TG144C.pretty") (options "") (descr ""))
+)
