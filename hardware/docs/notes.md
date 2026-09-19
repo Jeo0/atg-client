@@ -17,6 +17,12 @@
 
 # notes_programming:
 - file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- Each FPGA is in Master SPI (a configuration mode): FPGA drives the clocks and reads the bitstream from their own external SPI Flash
+- For this project's limitation (two channels only FTDI), only the JTAG port has the ability to support the **REFRESH** command; see file1, definition of terms
+- pull up pin FLASH-CSS according to notes #2 on page 14 of file1 (4.7K)
+- pull up pin FLASH-MOSI/DO and FLASH-MISO/DI according to notes #4 on page 14 of file1 for MSPI (10K)
+- pull up pin FLASH-D3/IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
+- pull up pin FLASH-MCLK according to notes #6 on page 14 of file1 (1K)
 
 
 # notes_IObanks:
@@ -47,8 +53,10 @@
 - file1: ftdi/FT2232H IC.PDF
 - file2: ftdi/DS_FT2232H_Mini_Module.pdf
 - file3: ftdi/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode
+- file4: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
 - the mini module has an FT2232HL IC (see figure 5.1 page 9 of file file2)
 - to have achieve the requirement of writing from PC host to the AVD device of ~13MB/s, the FTDI should be set to FT245 style synchronous FIFO mode. See (file3) page 2. UNDER CONSTRUCTION
 - The FTDI modes this project will need (MPSSE JTAG on channel B, then SYNC 245 FIFO style mode for channel B, vice-versa) can be configured through code. see 4.13.1 Do I need an EEPROM? page 46 of file1.
 - CN2-22, AC4/SIWU, is unused, so it is tied to VCCIO, see file3 table 1 page 4
 - JTAG pin through MPSSE (channel B) and 245 FIFO SYNC (channel A) pin connections are referred on table 3.1 of file1 page 9 
+- we are to put the FPGA into **Direct Mode** at the moment of inserting a USB connector to the FTDI device; this is so we can check whether the FPGA initially has any bitstream before deciding whether to go to **User Mode** or in **Master SPI** first; see file4, definition of terms
