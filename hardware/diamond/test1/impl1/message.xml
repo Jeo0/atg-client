@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921261</ID>
+            <Severity>Error</Severity>
+            <Dynamic>/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/test1/asdfasdf.vhd(1): </Dynamic>
+            <Dynamic>alkdfhaksldjhfkasdhf</Dynamic>
+            <Navigation>/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/test1/asdfasdf.vhd</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

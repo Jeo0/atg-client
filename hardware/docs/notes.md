@@ -61,3 +61,5 @@
 - CN2-22, AC4/SIWU, is unused, so it is tied to VCCIO, see file3 table 1 page 4
 - JTAG pin through MPSSE (channel B) and 245 FIFO SYNC (channel A) pin connections are referred on table 3.1 of file1 page 9 
 - we are to put the FPGA into **Direct Mode** at the moment of inserting a USB connector to the FTDI device; this is so we can check whether the FPGA initially has any bitstream before deciding whether to go to **User Mode** or in **Master SPI** first; see file4, definition of terms
+- JTAG internal resistors: only TCK has external pull down resistor recommended (4.7K); the rest has internal pull upp resistor to VCCIO8; see file4 page 20 to page 21.
+- FTDI JTAG port, TCK and TMS are made as an input port to the ECP5 device. see figure 4.3 JTAG port, page 21.
