@@ -8829,7 +8829,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 171.45) (xy 297.18 171.45)
+			(xy 279.4 171.45) (xy 297.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9499,6 +9499,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 173.99) (xy 297.18 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a65cd64-8a2f-46b3-b915-d23e030a800f")
+	)
+	(wire
+		(pts
 			(xy 416.56 140.97) (xy 419.1 140.97)
 		)
 		(stroke
@@ -9539,7 +9549,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 179.07) (xy 297.18 179.07)
+			(xy 279.4 179.07) (xy 297.18 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9907,16 +9917,6 @@
 		)
 		(uuid "b3856f25-7393-4499-ad77-b25ac564c1c6")
 	)
-	(wire
-		(pts
-			(xy 290.83 173.99) (xy 297.18 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ae2895-772c-4ca7-912d-8abe89ac756c")
-	)
 	(bus
 		(pts
 			(xy 83.82 207.01) (xy 203.2 207.01)
@@ -9929,7 +9929,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 176.53) (xy 297.18 176.53)
+			(xy 279.4 176.53) (xy 297.18 176.53)
 		)
 		(stroke
 			(width 0)
@@ -11307,16 +11307,6 @@
 		)
 		(uuid "2c997e8f-33d5-46ad-9c2a-0dfba8441b11")
 	)
-	(label "FLASH-INITN"
-		(at 295.91 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ddcf05b-8f05-4b63-a76b-49d63faaf0a8")
-	)
 	(label "SLAVE-RELAY_D5-"
 		(at 295.91 118.11 180)
 		(effects
@@ -11358,7 +11348,7 @@
 		(uuid "3180944e-e9ed-4022-b516-e8125e9cf720")
 	)
 	(label "FLASH-MOSI{slash}DO"
-		(at 632.46 191.77 180)
+		(at 632.46 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11458,7 +11448,7 @@
 		(uuid "422ec617-666d-4449-8e8e-701e5098a5f9")
 	)
 	(label "FLASH-MISO{slash}DI"
-		(at 295.91 153.67 180)
+		(at 295.91 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11537,16 +11527,6 @@
 		)
 		(uuid "4bb60cf1-7baf-4413-9264-b5c35252bd46")
 	)
-	(label "USER-LED1"
-		(at 417.83 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e0c17e6-5b20-47b0-804b-76cea1dd09f2")
-	)
 	(label "FTDI-D4"
 		(at 63.5 97.79 0)
 		(effects
@@ -11606,16 +11586,6 @@
 			(justify right bottom)
 		)
 		(uuid "5932f44a-3662-4ad9-8429-a0ab531d177c")
-	)
-	(label "USER-LED3"
-		(at 417.83 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a71595a-7813-4840-b96d-0795a8163f3c")
 	)
 	(label "FTDI-TXE#"
 		(at 295.91 115.57 180)
@@ -11947,16 +11917,6 @@
 		)
 		(uuid "93726769-18ff-4c07-99ab-fd0411e079bc")
 	)
-	(label "FLASH-DONE"
-		(at 295.91 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "93c096d0-99e2-42c6-b884-79300d4c784f")
-	)
 	(label "FTDI-D5"
 		(at 38.1 97.79 0)
 		(effects
@@ -12048,7 +12008,7 @@
 		(uuid "9cd14a7b-3cc4-4a3f-9118-6b5616f17c33")
 	)
 	(label "FLASH-MOSI{slash}DO"
-		(at 295.91 151.13 180)
+		(at 295.91 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12097,16 +12057,6 @@
 		)
 		(uuid "9ee15f6f-0b5c-43b4-959c-6a7d1eb872b3")
 	)
-	(label "FLASH-PROGRAMN"
-		(at 295.91 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fac1595-ff17-445e-9a6b-d076b1faf4b2")
-	)
 	(label "ARRAY-SI_T3"
 		(at 99.06 234.95 180)
 		(effects
@@ -12146,16 +12096,6 @@
 			(justify left bottom)
 		)
 		(uuid "aa6d0b4b-3ec6-404e-aa0b-1ee8804363c4")
-	)
-	(label "USER-LED2"
-		(at 417.83 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa8ad492-efbc-4550-bcb3-66aaa13c25ab")
 	)
 	(label "ARRAY-SI_T17"
 		(at 173.99 224.79 180)
@@ -12417,16 +12357,6 @@
 		)
 		(uuid "e26013bd-4530-439f-9a2a-21a9d2aca204")
 	)
-	(label "USER-HEART LED"
-		(at 417.83 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2a03914-7f22-4258-b80a-d56613073948")
-	)
 	(label "SLAVE-RELAY_D1-"
 		(at 417.83 234.95 0)
 		(effects
@@ -12438,7 +12368,7 @@
 		(uuid "e2a6fb82-f36f-4861-bf06-8e86d34cd193")
 	)
 	(label "FLASH-MISO{slash}DI"
-		(at 632.46 189.23 180)
+		(at 632.46 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12663,6 +12593,30 @@
 			)
 		)
 	)
+	(global_label "USER-LED2"
+		(shape output)
+		(at 417.83 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cbfcd1e-e999-4090-b2fd-a6a1375fb1eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 432.0032 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ARRAY-SI_T14"
 		(shape output)
 		(at 419.1 171.45 0)
@@ -12711,6 +12665,30 @@
 			)
 		)
 	)
+	(global_label "FLASH-DONE"
+		(shape output)
+		(at 279.4 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14e328c3-2a99-4c2b-a490-bbf5b7003f8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0171 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ARRAY-SI_T5"
 		(shape output)
 		(at 419.1 196.85 0)
@@ -12735,6 +12713,30 @@
 			)
 		)
 	)
+	(global_label "USER-HEART LED"
+		(shape output)
+		(at 417.83 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e80e0a9-8545-456f-82f8-5c441c5dd01f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 437.567 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ARRAY-SI_T18"
 		(shape output)
 		(at 419.1 161.29 0)
@@ -12748,6 +12750,30 @@
 		(uuid "1fa79b4c-4fef-4431-9f9e-33d6659ced68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 435.6319 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USER-LED1"
+		(shape output)
+		(at 417.83 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "255b7a45-644b-403d-8967-99cdeac481da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 432.0032 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,6 +12929,30 @@
 			)
 		)
 	)
+	(global_label "FLASH-PROGRAMN"
+		(shape output)
+		(at 279.4 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bd5b8a0-9499-4ccb-b5d6-f61de4d7e293")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.8161 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ARRAY-SI_T3"
 		(shape output)
 		(at 419.1 201.93 0)
@@ -13044,6 +13094,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "USER-LED3"
+		(shape output)
+		(at 417.83 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a996099-131c-4a8f-8c37-25e22f955dc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 432.0032 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FLASH-INITN"
+		(shape output)
+		(at 279.4 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cf8a245-8ce2-45a5-bbfa-16a37a7fc873")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.2589 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

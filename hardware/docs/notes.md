@@ -19,6 +19,7 @@
 - file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
 - Each FPGA is in Master SPI (a configuration mode): FPGA drives the clocks and reads the bitstream from their own external SPI Flash
 - For this project's limitation (two channels only FTDI), only the JTAG port has the ability to support the **REFRESH** command; see file1, definition of terms
+- FLASH pins are powered by bank 8 (VCCIO8: +3.3V); see page 18, 4.7 Dual-Purpose sysCONFIG Pins
 - pull up pin FLASH-CSS according to notes #2 on page 14 of file1 (4.7K)
 - pull up pin FLASH-MOSI/DO and FLASH-MISO/DI according to notes #4 on page 14 of file1 for MSPI (10K)
 - pull up pin FLASH-D3/IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
