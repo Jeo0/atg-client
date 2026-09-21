@@ -1590,6 +1590,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1668,6 +1674,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "#PWR0512")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1742,6 +1754,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0522")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0522")
 					(unit 1)
 				)
@@ -1825,6 +1843,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1899,6 +1923,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0358")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0358")
 					(unit 1)
 				)
@@ -1994,6 +2024,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2068,6 +2104,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0513")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0513")
 					(unit 1)
 				)
@@ -2147,6 +2189,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "R32")
 					(unit 1)
 				)
@@ -2242,6 +2290,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2329,6 +2383,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "D10")
 					(unit 1)
 				)
@@ -2424,6 +2484,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2498,6 +2564,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0519")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0519")
 					(unit 1)
 				)
@@ -2581,6 +2653,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2655,6 +2733,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0520")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0520")
 					(unit 1)
 				)
@@ -2750,6 +2834,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2824,6 +2914,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0521")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0521")
 					(unit 1)
 				)
@@ -2919,6 +3015,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2993,6 +3095,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0382")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0382")
 					(unit 1)
 				)
@@ -3076,6 +3184,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3155,6 +3269,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3230,6 +3350,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "R20")
 					(unit 1)
 				)
@@ -3325,6 +3451,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3404,6 +3536,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3478,6 +3616,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0514")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0514")
 					(unit 1)
 				)
@@ -3573,6 +3717,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3648,6 +3798,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "R25")
 					(unit 1)
 				)
@@ -3743,6 +3899,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3818,6 +3980,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "R24")
 					(unit 1)
 				)
@@ -3900,6 +4068,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "#PWR0510")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3978,6 +4152,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "#PWR0471")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4052,6 +4232,12 @@
 		(instances
 			(project "link"
 				(path "/03ef9555-17a6-4c9b-a8d2-579bd7835477"
+					(reference "#PWR0509")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
 					(reference "#PWR0509")
 					(unit 1)
 				)
@@ -4135,6 +4321,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4213,11 +4405,12 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "4")
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/3cff6df1-63b0-40ec-813c-9e3b5ed99b68"
+					(reference "#PWR0511")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

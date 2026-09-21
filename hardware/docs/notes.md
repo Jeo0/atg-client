@@ -17,6 +17,21 @@
 
 # notes_programming:
 - file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- Each FPGA is in Master SPI (a configuration mode): FPGA drives the clocks and reads the bitstream from their own external SPI Flash
+- For this project's limitation (two channels only FTDI), only the JTAG port has the ability to support the **REFRESH** command; see file1, definition of terms
+- FLASH pins are powered by bank 8 (VCCIO8: +3.3V); see page 18, 4.7 Dual-Purpose sysCONFIG Pins
+- pull up pin FLASH-CSS according to notes #2 on page 14 of file1 (4.7K)
+- pull up pin FLASH-IO0 and FLASH-IO1 according to notes #4 on page 14 of file1 for MSPI (10K)
+- pull up pin FLASH-IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
+- pull up pin FLASH-MCLK according to notes #6 on page 14 of file1 (1K)
+- MOSI -> IO0, MISO -> IO1; see Table 6.1. Master SPI Configuration Port Pins page 26 of file1
+- "A port is said to be a configuration port when it is capable of executing both bitstream write and read commands. And this is the only method that users can use to perform a DUAL read and a QUAD read from SPI Flash." see file1, 6.1.1 Method to Enable the Master SPI Port page 27
+- this project is in quad master SPI mode. skip to 6.1.4 of file1
+
+
+# notes_resetMechanism:
+- file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- "Toggling" the PROGRAMN pin causes the ECP5 device to go back to initialization phase; see 5. Configuration Process and Flow page 22 to 25.
 
 
 # notes_IObanks:
@@ -30,11 +45,16 @@
 - these are in bank 2 from master FPGA
 - in the slave FPGA, turn on the "programmable on/off differential input termination of 100 Ω".- See file1 page 10: 4.8. LVDS sysI/O Buffer Pairs (A/B and C/D on Left and Right Sides)
 
+# notes_triggerLine:
+- file1: compile/openmpd Supplementaty Material.pdf
+- blablabla see page 4
+
 
 # notes_deviceUsage:
 - file1: datasheet FPGA-DS-02012-3-4-ECP5-ECP5G-Family-Data-Sheet.pdf
-- See file1 page 43: 2.14.1. sysI/O Buffer Banks
-- no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
+- file2: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- DONE pin and the INITN pin must be high to be in user mode. see file2 page 27
+- See file1 page 43: 2.14.1. sysI/O Buffer Banks: no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
 - banks left (6, 7) and right (2, 3) do not support that. Only banks up (0, 1) and bottom banks (8, 4)
 - devices that are hot swappable are: 
     - transducer array board  
@@ -43,12 +63,17 @@
     - FTDI device (FT2232H)
 
 
+
 # notes_ftdi:
 - file1: ftdi/FT2232H IC.PDF
 - file2: ftdi/DS_FT2232H_Mini_Module.pdf
 - file3: ftdi/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode
+- file4: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
 - the mini module has an FT2232HL IC (see figure 5.1 page 9 of file file2)
 - to have achieve the requirement of writing from PC host to the AVD device of ~13MB/s, the FTDI should be set to FT245 style synchronous FIFO mode. See (file3) page 2. UNDER CONSTRUCTION
 - The FTDI modes this project will need (MPSSE JTAG on channel B, then SYNC 245 FIFO style mode for channel B, vice-versa) can be configured through code. see 4.13.1 Do I need an EEPROM? page 46 of file1.
 - CN2-22, AC4/SIWU, is unused, so it is tied to VCCIO, see file3 table 1 page 4
 - JTAG pin through MPSSE (channel B) and 245 FIFO SYNC (channel A) pin connections are referred on table 3.1 of file1 page 9 
+- we are to put the FPGA into **Direct Mode** at the moment of inserting a USB connector to the FTDI device; this is so we can check whether the FPGA initially has any bitstream before deciding whether to go to **User Mode** or in **Master SPI** first; see file4, definition of terms
+- JTAG internal resistors: only TCK has external pull down resistor recommended (4.7K); the rest has internal pull upp resistor to VCCIO8; see file4 page 20 to page 21.
+- FTDI JTAG port, TCK and TMS are made as an input port to the ECP5 device. see figure 4.3 JTAG port, page 21.

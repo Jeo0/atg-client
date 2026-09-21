@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/21/2026 00:40:00
+#Project Location: /mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/test1; Project name: finding_spiFlash
+prj_project open "/mnt/microsdko/school/4thyr/thesis/actual/hardware/diamond/test1/finding_spiFlash.ldf"
+prj_project close
+#Stop recording: 9/21/2026 00:45:04
