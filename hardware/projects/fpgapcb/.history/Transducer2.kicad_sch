@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 30.48) (xy 76.2 25.4)
+			(xy 76.2 30.48) (xy 76.2 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2708,9 +2708,9 @@
 		)
 		(uuid "ffeb6b94-dd8f-43de-8042-785c6a6d7e8c")
 	)
-	(global_label "SI_T2"
+	(global_label "ARRAY-SI_T2"
 		(shape input)
-		(at 76.2 25.4 90)
+		(at 76.2 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2720,7 +2720,7 @@
 		)
 		(uuid "15a973d0-2ca6-43d3-8218-590a32d58c74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 17.4558 90)
+			(at 76.2 12.6176 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,7 +2732,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "ARRAY-SCK"
 		(shape input)
 		(at 69.85 35.56 0)
 		(fields_autoplaced yes)
@@ -2744,7 +2744,7 @@
 		)
 		(uuid "59fd5589-a0a4-415f-8f7b-3d73d3b307fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.2375 35.56 0)
+			(at 81.1401 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2756,7 @@
 			)
 		)
 	)
-	(global_label "RCK"
+	(global_label "ARRAY-RCK"
 		(shape input)
 		(at 69.85 38.1 0)
 		(fields_autoplaced yes)
