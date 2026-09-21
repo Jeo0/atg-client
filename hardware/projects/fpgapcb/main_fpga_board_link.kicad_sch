@@ -6227,6 +6227,16 @@
 		)
 		(uuid "6696d1bf-b1a7-401e-9512-f3a2adc73446")
 	)
+	(text "notes_resetMechanism\n"
+		(exclude_from_sim no)
+		(at 560.578 209.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d5067f2-6fd6-472f-8ca0-0cdfba57f45a")
+	)
 	(text "NOTE: THE PINS ARE CONNECTED BY THE\nFEMALE CONNECTORS FROM THE MASTER TO SLAVE"
 		(exclude_from_sim no)
 		(at 200.914 130.302 0)

@@ -24,6 +24,12 @@
 - pull up pin FLASH-MOSI/DO and FLASH-MISO/DI according to notes #4 on page 14 of file1 for MSPI (10K)
 - pull up pin FLASH-D3/IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
 - pull up pin FLASH-MCLK according to notes #6 on page 14 of file1 (1K)
+- "A port is said to be a configuration port when it is capable of executing both bitstream write and read commands. And this is the only method that users can use to perform a DUAL read and a QUAD read from SPI Flash." see file1, 6.1.1 Method to Enable the Master SPI Port page 27
+
+
+# notes_resetMechanism:
+- file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- "Toggling" the PROGRAMN pin causes the ECP5 device to go back to initialization phase; see 5. Configuration Process and Flow page 22 to 25.
 
 
 # notes_IObanks:
@@ -40,14 +46,16 @@
 
 # notes_deviceUsage:
 - file1: datasheet FPGA-DS-02012-3-4-ECP5-ECP5G-Family-Data-Sheet.pdf
-- See file1 page 43: 2.14.1. sysI/O Buffer Banks
-- no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
+- file2: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- DONE pin and the INITN pin must be high to be in user mode. see file2 page 27
+- See file1 page 43: 2.14.1. sysI/O Buffer Banks: no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
 - banks left (6, 7) and right (2, 3) do not support that. Only banks up (0, 1) and bottom banks (8, 4)
 - devices that are hot swappable are: 
     - transducer array board  
     - CH340C debug (TX and RX remains connected regardless if device is connected to the port or not; IMPORTANT: ASSUMING the CH340C is powered by the board's own power, i.e. 3.3 V, and not powered through usb; right now it is powered through usb and thats not nice)
 - devices that are not hot swappable (same thing above with hot socketing) are:
     - FTDI device (FT2232H)
+
 
 
 # notes_ftdi:
