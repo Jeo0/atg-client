@@ -380,7 +380,7 @@ jlcpcb mag aassemble
     msc: 
         shift register
         capcaitor 
-        +++ spi flash   W25Q32JV
+        +++ spi flash   MX25L3206E
         resistor 
         ferrite beads
         ++++ buck converters 

@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "link.kicad_pro",
+    "filename": "main_fpga_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -782,7 +782,7 @@
         "uuid": "9c5ef320-ed14-4fbf-afec-63494d4e827d"
       }
     ],
-    "used_designators": "U1-6,U8-166,Ue1,D1-13,C1-75,C84-108,R1-3,R14-35,#FLG1-5,J1-11,SW1,FB1,LS1-256,#PWR1-365,#PWR367-379,#PWR381-450,#PWR453-454,#PWR457-495,#PWR498-523,L1-3",
+    "used_designators": "L1-3,#PWR1-365,#PWR367-379,#PWR381-450,#PWR453-454,#PWR457-495,#PWR498-523,LS1-256,FB1,SW1,J1-11,#FLG1-5,R1-3,R14-35,C1-75,C84-108,D1-13,Ue1,U1-6,U8-166",
     "variants": [
       {
         "description": "asdf",

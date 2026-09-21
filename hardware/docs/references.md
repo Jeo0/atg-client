@@ -11,3 +11,4 @@ https://ftdichip.com/wp-content/uploads/2020/08/AN_135_MPSSE_Basics.pdf
 
 SPI flash support (local file provided by lattice diamond):
 /diamond/3.14/docs/webhelp/eng/index.htm#page/User Guides/Device Programming/serial_peripheral_interface_support.htm#ww1782656
+https://www.alldatasheet.com/datasheet-pdf/download/575455/MCNIX/MX25L3206E.html
