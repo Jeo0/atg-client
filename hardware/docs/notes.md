@@ -45,6 +45,10 @@
 - these are in bank 2 from master FPGA
 - in the slave FPGA, turn on the "programmable on/off differential input termination of 100 Ω".- See file1 page 10: 4.8. LVDS sysI/O Buffer Pairs (A/B and C/D on Left and Right Sides)
 
+# notes_triggerLine:
+- file1: compile/openmpd Supplementaty Material.pdf
+- blablabla see page 4
+
 
 # notes_deviceUsage:
 - file1: datasheet FPGA-DS-02012-3-4-ECP5-ECP5G-Family-Data-Sheet.pdf

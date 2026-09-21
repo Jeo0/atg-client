@@ -7167,6 +7167,16 @@
 		)
 		(uuid "2f202e6e-eee7-4f92-89b3-7a7c3ae51db0")
 	)
+	(text "notes_triggerLine\n"
+		(exclude_from_sim no)
+		(at 201.676 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2746ffa6-44e8-4c46-ad0c-6d0663a25067")
+	)
 	(text "note_relayPins"
 		(exclude_from_sim no)
 		(at 201.422 124.968 0)
@@ -8240,16 +8250,6 @@
 			(type default)
 		)
 		(uuid "10a1f186-a306-457c-af60-f464f5a8fc0f")
-	)
-	(wire
-		(pts
-			(xy 180.34 110.49) (xy 195.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "110240af-fcdb-4881-8280-113acbdaf6f3")
 	)
 	(wire
 		(pts
@@ -9780,6 +9780,16 @@
 			(type default)
 		)
 		(uuid "71c9a9c6-b7d3-4dbd-9593-b0abd4324c76")
+	)
+	(wire
+		(pts
+			(xy 176.53 110.49) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723aadbf-9fbb-4c05-8bf3-f6039689146e")
 	)
 	(wire
 		(pts
@@ -12480,6 +12490,16 @@
 			(justify left bottom)
 		)
 		(uuid "6b29ee1b-e82e-4546-9a70-36c4b207bd4b")
+	)
+	(label "SLAVE-TRIGGERLINE"
+		(at 194.31 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c62e0c4-4ee4-48a5-bea3-fa3f68b9e52f")
 	)
 	(label "SLAVE-RELAY_D7-"
 		(at 295.91 97.79 180)
