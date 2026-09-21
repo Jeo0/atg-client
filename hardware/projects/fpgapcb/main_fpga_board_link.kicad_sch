@@ -8243,6 +8243,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 110.49) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110240af-fcdb-4881-8280-113acbdaf6f3")
+	)
+	(wire
+		(pts
 			(xy 562.61 184.15) (xy 562.61 195.58)
 		)
 		(stroke
