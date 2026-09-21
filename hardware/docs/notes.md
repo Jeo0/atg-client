@@ -21,10 +21,12 @@
 - For this project's limitation (two channels only FTDI), only the JTAG port has the ability to support the **REFRESH** command; see file1, definition of terms
 - FLASH pins are powered by bank 8 (VCCIO8: +3.3V); see page 18, 4.7 Dual-Purpose sysCONFIG Pins
 - pull up pin FLASH-CSS according to notes #2 on page 14 of file1 (4.7K)
-- pull up pin FLASH-MOSI/DO and FLASH-MISO/DI according to notes #4 on page 14 of file1 for MSPI (10K)
-- pull up pin FLASH-D3/IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
+- pull up pin FLASH-IO0 and FLASH-IO1 according to notes #4 on page 14 of file1 for MSPI (10K)
+- pull up pin FLASH-IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
 - pull up pin FLASH-MCLK according to notes #6 on page 14 of file1 (1K)
+- MOSI -> IO0, MISO -> IO1; see Table 6.1. Master SPI Configuration Port Pins page 26 of file1
 - "A port is said to be a configuration port when it is capable of executing both bitstream write and read commands. And this is the only method that users can use to perform a DUAL read and a QUAD read from SPI Flash." see file1, 6.1.1 Method to Enable the Master SPI Port page 27
+- this project is in quad master SPI mode. skip to 6.1.4 of file1
 
 
 # notes_resetMechanism:
