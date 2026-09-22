@@ -1,12 +1,16 @@
 Serial Peripheral Interface (SPI) Flash Supported ICs devices SPI FLASH DEVICES SUPPORTED according to LATTICE DIAMOND
+quad SPI flash is not supported by the tqfp 144 package. see page 15, note 2 of file "FPGA-TN-02038-2-1-ECP5-and-ECP5-5G-Hardware-Checklist.pdf"
 
-================== W25Q32JV ===================== chosen
-specifically: W25Q32JVZPIQ 
-https://www.lcsc.com/product-detail/C571260.html?s_z=n_q_winbond%20w25q32&spm=wm.ssy.bg.1.xh&lcsc_vid=TwBaAgVSRAdXBVxUFQNeXwdQTlYIUFdXTgUPBlJXQ1kxVlNRQFRZVVBXRlVYUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D
+
+================== MX25L3206E ===================== chosen
+specifically: MXIC MX25L3206EM2I-12G
+https://www.lcsc.com/product-detail/C415880.html?s_z=n_q_MX25L3206E&spm=wm.fly.bg.1.xh&lcsc_vid=EQRZUF1WR1gNBAdXT1MKU11TR1ZcBlQHE1VcVFNXEgAxVlNfR1FfVVBRR1BbUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVlWSQwSGg0%3D
 
 reason: 
-    - available in the lcsc 
-    - 
+    - available in the lcsc
+    - 32 Mbit (more than 8 Mbit recommended by lattice, 
+    - 86 MHz max 
+
 
 
 Cypress

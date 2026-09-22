@@ -17,16 +17,17 @@
 
 # notes_programming:
 - file1: FPGA-TN-02039-2-5-ECP5-and-ECP5-5G-sysCONFIG.pdf
+- file2: SPI flash/SPI flash MX25L3206E.pdf
+- this will be in 62 MHz (max MCLK frequency) see Table 4.7 page 18 of file1; the SPI flash has a max frequency of 86 MHz.
 - Each FPGA is in Master SPI (a configuration mode): FPGA drives the clocks and reads the bitstream from their own external SPI Flash
 - For this project's limitation (two channels only FTDI), only the JTAG port has the ability to support the **REFRESH** command; see file1, definition of terms
+- Recommended SPI flash size for LFE5U-25 is 8 Mbit see file1 page 11
 - FLASH pins are powered by bank 8 (VCCIO8: +3.3V); see page 18, 4.7 Dual-Purpose sysCONFIG Pins
 - pull up pin FLASH-CSS according to notes #2 on page 14 of file1 (4.7K)
 - pull up pin FLASH-IO0 and FLASH-IO1 according to notes #4 on page 14 of file1 for MSPI (10K)
-- pull up pin FLASH-IO3 according to notes #5 on page 14 of file1 for quad SPI flash  (10K)
 - pull up pin FLASH-MCLK according to notes #6 on page 14 of file1 (1K)
-- MOSI -> IO0, MISO -> IO1; see Table 6.1. Master SPI Configuration Port Pins page 26 of file1
+- by default, once power is on the FPGA and the SPI flash (we are in Master SPI mode), it proceeds to download the program from the SPI flash through serial and slow read. see 6.1. Master SPI Modes page 26 of file1.
 - "A port is said to be a configuration port when it is capable of executing both bitstream write and read commands. And this is the only method that users can use to perform a DUAL read and a QUAD read from SPI Flash." see file1, 6.1.1 Method to Enable the Master SPI Port page 27
-- this project is in quad master SPI mode. skip to 6.1.4 of file1
 
 
 # notes_resetMechanism:
