@@ -1806,7 +1806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157af891-7594-40a9-97c9-a453a39b6e49")
-		(property "Reference" "#PWR0490"
+		(property "Reference" "#PWR?"
 			(at 196.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1870,6 +1870,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0490")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1884,7 +1896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28bc1282-f869-4eec-8537-2b0a779a2d5e")
-		(property "Reference" "#PWR0469"
+		(property "Reference" "#PWR?"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1948,6 +1960,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0469")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1962,7 +1986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b41295a-09c2-446e-844d-7878d9ebd54d")
-		(property "Reference" "#PWR0494"
+		(property "Reference" "#PWR?"
 			(at 219.71 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2026,6 +2050,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0494")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2040,7 +2076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cbfce7b-9c11-4d36-9e92-01aceb24c4f3")
-		(property "Reference" "C90"
+		(property "Reference" "C?"
 			(at 130.81 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2108,6 +2144,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2122,7 +2170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f444729-fe74-43a2-8d04-6a6b906963c8")
-		(property "Reference" "#PWR0489"
+		(property "Reference" "#PWR?"
 			(at 185.42 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2186,6 +2234,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0489")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2200,7 +2260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b91400-4490-475b-83cd-86eb0521f8ca")
-		(property "Reference" "C93"
+		(property "Reference" "C?"
 			(at 165.1 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2268,6 +2328,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2282,7 +2354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e75096-ccf0-48b0-a8ec-25dd93e4f6bd")
-		(property "Reference" "C102"
+		(property "Reference" "C?"
 			(at 149.86 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2350,6 +2422,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2364,7 +2448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39cd75d1-52c3-435d-82f2-a2d9e278376f")
-		(property "Reference" "#PWR0478"
+		(property "Reference" "#PWR?"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2428,6 +2512,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0478")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2442,7 +2538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446878e2-297d-4ad9-a760-7efa4c448569")
-		(property "Reference" "#PWR0473"
+		(property "Reference" "#PWR?"
 			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2506,6 +2602,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0473")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2520,7 +2628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47da0c42-8295-40ba-90ba-fae7949d55e0")
-		(property "Reference" "C86"
+		(property "Reference" "C?"
 			(at 74.93 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,6 +2696,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2602,7 +2722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48653b40-b35d-4e73-b541-daaaf5c6b888")
-		(property "Reference" "C96"
+		(property "Reference" "C?"
 			(at 83.82 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,6 +2790,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2684,7 +2816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2dfbd2-ba6d-4cca-9634-b01b8ce1585c")
-		(property "Reference" "C95"
+		(property "Reference" "C?"
 			(at 73.66 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,6 +2884,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2766,7 +2910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a57f6d5-f65c-499a-8b77-64a72edbb237")
-		(property "Reference" "#PWR0466"
+		(property "Reference" "#PWR?"
 			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2830,6 +2974,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0466")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2844,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c10b921-a699-45ea-88b0-8e51ee6b5ae3")
-		(property "Reference" "#PWR0491"
+		(property "Reference" "#PWR?"
 			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2908,6 +3064,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0491")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2922,7 +3090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e9f0658-3ea4-4d76-a605-0f998036f9b7")
-		(property "Reference" "#PWR0459"
+		(property "Reference" "#PWR?"
 			(at 72.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2986,6 +3154,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0459")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3000,7 +3180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61625a80-a272-4fe6-912a-c9b76effd985")
-		(property "Reference" "C100"
+		(property "Reference" "C?"
 			(at 127 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3068,6 +3248,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3082,7 +3274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c382d9-63f1-4e0f-b150-5ee725073752")
-		(property "Reference" "C98"
+		(property "Reference" "C?"
 			(at 105.41 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,6 +3342,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3164,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6259e767-d60a-410a-bfb3-0660d06930fc")
-		(property "Reference" "#PWR0495"
+		(property "Reference" "#PWR?"
 			(at 219.71 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3228,6 +3432,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0495")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3242,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "639a9319-0a94-41c2-a9e1-9657a0d52ec9")
-		(property "Reference" "#PWR0485"
+		(property "Reference" "#PWR?"
 			(at 162.56 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3306,6 +3522,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0485")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3320,7 +3548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c9e245-ed3f-4e88-b249-5a694964575f")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG?"
 			(at 77.47 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -3384,6 +3612,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3398,7 +3638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "659d45aa-74aa-4537-a63a-3103ba52968b")
-		(property "Reference" "C88"
+		(property "Reference" "C?"
 			(at 107.95 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,6 +3706,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3480,7 +3732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6620052b-a12d-4521-b81a-b6862d79b87c")
-		(property "Reference" "#PWR0458"
+		(property "Reference" "#PWR?"
 			(at 72.39 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3544,6 +3796,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0458")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3558,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67fb42d3-6996-438b-8f8d-e4af1dd36e9b")
-		(property "Reference" "FB1"
+		(property "Reference" "FB?"
 			(at 96.52 133.3118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,6 +3890,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3640,7 +3916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b0c6d21-9b09-4f37-9eda-5f0180f002fb")
-		(property "Reference" "#PWR0480"
+		(property "Reference" "#PWR?"
 			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3704,6 +3980,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0480")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3718,7 +4006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ddff65a-d23a-4c50-89a7-83bf4e14d713")
-		(property "Reference" "#PWR0474"
+		(property "Reference" "#PWR?"
 			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3782,6 +4070,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0474")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3796,7 +4096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd5f63b-a54b-4c41-beb7-fe4d5c6ff452")
-		(property "Reference" "#PWR0368"
+		(property "Reference" "#PWR?"
 			(at 71.12 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3860,6 +4160,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0368")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3874,7 +4186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7427b05b-1d9d-4f7a-a246-628d410c9696")
-		(property "Reference" "#PWR0487"
+		(property "Reference" "#PWR?"
 			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3938,6 +4250,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0487")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3952,7 +4276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776e5fcc-9ae8-4d72-aef9-df7860b307a6")
-		(property "Reference" "#PWR0482"
+		(property "Reference" "#PWR?"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4016,6 +4340,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0482")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4030,7 +4366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dad5e19-9ece-4f92-bfd8-79a1c42b7dc3")
-		(property "Reference" "#PWR0461"
+		(property "Reference" "#PWR?"
 			(at 92.71 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4094,6 +4430,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0461")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4108,7 +4456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81648d3e-6ac4-4579-9324-5d9ad5d07bd8")
-		(property "Reference" "C84"
+		(property "Reference" "C?"
 			(at 74.93 133.3562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,6 +4524,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4190,7 +4550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88853b99-725e-4edb-bcee-8d74b4823298")
-		(property "Reference" "C104"
+		(property "Reference" "C?"
 			(at 187.96 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,6 +4618,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4272,7 +4644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac5c9d7-09a7-4d6e-90c2-dc77c00f668d")
-		(property "Reference" "#PWR0479"
+		(property "Reference" "#PWR?"
 			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4336,6 +4708,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0479")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4350,7 +4734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eea799f-c132-4014-942d-cabdab6dcdee")
-		(property "Reference" "#PWR0462"
+		(property "Reference" "#PWR?"
 			(at 92.71 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4414,6 +4798,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0462")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4428,7 +4824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e2693b-769f-4d35-b440-0b6082fc960f")
-		(property "Reference" "#PWR0357"
+		(property "Reference" "#PWR?"
 			(at 72.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4492,6 +4888,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0357")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4506,7 +4914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91caef91-38b2-42a8-93fb-81880817f9fc")
-		(property "Reference" "#PWR0492"
+		(property "Reference" "#PWR?"
 			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4570,6 +4978,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0492")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4584,7 +5004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "938b4928-e150-4637-802a-d5e139692e75")
-		(property "Reference" "C92"
+		(property "Reference" "C?"
 			(at 153.67 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4652,6 +5072,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4666,7 +5098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949203ac-c9e0-40f0-a6ec-7d9a772ac40c")
-		(property "Reference" "#PWR0460"
+		(property "Reference" "#PWR?"
 			(at 71.12 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4730,6 +5162,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0460")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4744,7 +5188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97a60922-145a-4a2e-ba35-4434da56d9ea")
-		(property "Reference" "C97"
+		(property "Reference" "C?"
 			(at 95.25 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,6 +5256,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4826,7 +5282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f5146bc-0c0c-4fd4-a75c-4bf09cb2aed7")
-		(property "Reference" "C108"
+		(property "Reference" "C?"
 			(at 86.36 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,6 +5350,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C108")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4908,7 +5376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e1197e-043e-4197-b161-bdf0875f4e30")
-		(property "Reference" "#PWR0463"
+		(property "Reference" "#PWR?"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4972,6 +5440,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0463")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4986,7 +5466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6b18aaa-692a-4bec-8da8-979d63f1e092")
-		(property "Reference" "#PWR0481"
+		(property "Reference" "#PWR?"
 			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5050,6 +5530,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0481")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5064,7 +5556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a91d37b6-501f-490f-8ec2-8ea239411b8a")
-		(property "Reference" "#PWR0470"
+		(property "Reference" "#PWR?"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5128,6 +5620,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0470")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5142,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab857af2-272d-464f-8d83-ace1f5410a5b")
-		(property "Reference" "C107"
+		(property "Reference" "C?"
 			(at 222.25 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,6 +5714,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5224,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affe0ec0-a413-4d8e-8a28-ad71378009fa")
-		(property "Reference" "#PWR0457"
+		(property "Reference" "#PWR?"
 			(at 72.39 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5288,6 +5804,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0457")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5302,7 +5830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad049e9-3b27-4238-bbaa-a35725386806")
-		(property "Reference" "#PWR0493"
+		(property "Reference" "#PWR?"
 			(at 208.28 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5366,6 +5894,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0493")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5380,7 +5920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c04cb4c6-4fa9-4fe6-a44d-3220971159df")
-		(property "Reference" "C65"
+		(property "Reference" "C?"
 			(at 109.22 133.3562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,6 +5988,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5462,7 +6014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f803b2-2fd2-477b-9084-345a64cb8998")
-		(property "Reference" "#PWR0472"
+		(property "Reference" "#PWR?"
 			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5526,6 +6078,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0472")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5540,7 +6104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c258d509-a771-4b58-8454-c54dfff40a78")
-		(property "Reference" "#PWR0467"
+		(property "Reference" "#PWR?"
 			(at 158.75 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5604,6 +6168,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0467")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5618,7 +6194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c28fc012-bf2f-4039-a317-8badcfb4ecec")
-		(property "Reference" "#PWR0465"
+		(property "Reference" "#PWR?"
 			(at 135.89 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5682,6 +6258,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0465")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5696,7 +6284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f98626-4cc9-459f-a7c6-72185c493241")
-		(property "Reference" "#PWR0468"
+		(property "Reference" "#PWR?"
 			(at 135.89 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5760,6 +6348,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0468")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5774,7 +6374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5eaf569-1ceb-4759-9722-4a620ee3be5c")
-		(property "Reference" "#PWR0486"
+		(property "Reference" "#PWR?"
 			(at 173.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5838,6 +6438,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0486")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5852,7 +6464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ca0019-5d9a-4110-982e-ce8b4e3827ab")
-		(property "Reference" "#PWR0475"
+		(property "Reference" "#PWR?"
 			(at 105.41 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5916,6 +6528,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0475")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5930,7 +6554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f24874-3d1a-4691-be30-c0acc466d890")
-		(property "Reference" "#PWR0454"
+		(property "Reference" "#PWR?"
 			(at 106.68 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5994,6 +6618,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0454")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6008,7 +6644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbdf1c7d-4518-41d6-a8cd-6672bad7cad0")
-		(property "Reference" "C103"
+		(property "Reference" "C?"
 			(at 161.29 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,6 +6712,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6090,7 +6738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc28b632-c3b1-4a4a-b689-a82192508c96")
-		(property "Reference" "C106"
+		(property "Reference" "C?"
 			(at 210.82 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,6 +6806,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6172,7 +6832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfad60bc-4f06-43e5-afa2-fdda1f2402ab")
-		(property "Reference" "C85"
+		(property "Reference" "C?"
 			(at 85.09 133.3562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,6 +6900,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6254,7 +6926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a4eff1-4eac-498f-95b1-8887ee708dde")
-		(property "Reference" "C99"
+		(property "Reference" "C?"
 			(at 116.84 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,6 +6994,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6336,7 +7020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d54450e0-2d17-48f5-9cde-ec27b1d04369")
-		(property "Reference" "#PWR0488"
+		(property "Reference" "#PWR?"
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6400,6 +7084,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0488")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6414,7 +7110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d76b3ace-ded1-4f6f-8f24-38890cea4611")
-		(property "Reference" "#PWR0484"
+		(property "Reference" "#PWR?"
 			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6478,6 +7174,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0484")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6492,7 +7200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9d651a-bb05-4b33-af8d-d6f3e799cc7b")
-		(property "Reference" "#PWR0453"
+		(property "Reference" "#PWR?"
 			(at 106.68 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6556,6 +7264,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0453")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6570,7 +7290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "decb1b17-d254-446b-9235-f6f8dd97f2cb")
-		(property "Reference" "#PWR0476"
+		(property "Reference" "#PWR?"
 			(at 116.84 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6634,6 +7354,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0476")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6648,7 +7380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df00b925-082b-4abf-b2ac-bab70cd84099")
-		(property "Reference" "#PWR0477"
+		(property "Reference" "#PWR?"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6712,6 +7444,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0477")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6726,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0577e1c-308d-4157-bd13-970fbd918ee6")
-		(property "Reference" "C91"
+		(property "Reference" "C?"
 			(at 142.24 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,6 +7538,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6808,7 +7564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e579f9c9-dd6a-4a4a-8b50-4b745f1abd4d")
-		(property "Reference" "C87"
+		(property "Reference" "C?"
 			(at 96.52 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,6 +7632,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6890,7 +7658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e637c78e-a17d-4414-8b09-e9dea28dd500")
-		(property "Reference" "#PWR0483"
+		(property "Reference" "#PWR?"
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6954,6 +7722,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0483")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6968,7 +7748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e93b77-5030-41b0-a14b-6c8080e3a89a")
-		(property "Reference" "#PWR0464"
+		(property "Reference" "#PWR?"
 			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7032,6 +7812,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR0464")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7046,7 +7838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7709d1e-6cfd-4215-b0f3-3bba8e5da8d6")
-		(property "Reference" "C94"
+		(property "Reference" "C?"
 			(at 176.53 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,6 +7906,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7128,7 +7932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbb76dd4-6d67-4e02-884d-ba49ea9285b0")
-		(property "Reference" "C105"
+		(property "Reference" "C?"
 			(at 199.39 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,6 +8000,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7210,7 +8026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc8253c-0000-4a55-a50f-158a69fcfa90")
-		(property "Reference" "C101"
+		(property "Reference" "C?"
 			(at 138.43 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,6 +8094,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7292,7 +8120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd15b646-9938-4613-b56b-e0d3f1987321")
-		(property "Reference" "C89"
+		(property "Reference" "C?"
 			(at 119.38 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,6 +8185,18 @@
 			(project "link"
 				(path "/614e1dc5-529f-4cb8-b507-3d41bfeee72e/124face8-58c2-4205-b12d-f1668bceff11"
 					(reference "C89")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/bb99fabb-f449-44a1-8e2c-3c48bea2dfdf/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3/124face8-58c2-4205-b12d-f1668bceff11"
+					(reference "C?")
 					(unit 1)
 				)
 			)

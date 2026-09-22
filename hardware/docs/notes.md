@@ -48,7 +48,10 @@
 
 # notes_triggerLine:
 - file1: compile/openmpd Supplementaty Material.pdf
-- blablabla see page 4
+- pp 2; pp 4
+- for the trigger openmpd used "update rate divider" to make sure that both pcbs are synchronized
+- it is integrated to the gspat
+- it divides the UPS output for the transducers 
 
 
 # notes_deviceUsage:
