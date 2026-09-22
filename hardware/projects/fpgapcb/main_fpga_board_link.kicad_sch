@@ -13629,7 +13629,7 @@
 			)
 		)
 	)
-	(global_label "DEBUG-TX0"
+	(global_label "DEBUG-TXO"
 		(shape input)
 		(at 419.1 240.03 0)
 		(fields_autoplaced yes)
@@ -13641,7 +13641,7 @@
 		)
 		(uuid "2567898f-e131-4255-8288-1c1b6e49f325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 433.3337 240.03 0)
+			(at 433.4547 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
