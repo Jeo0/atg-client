@@ -4259,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 196.85 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 115.57 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,7 +4999,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 259.715 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5252,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 177.8 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)

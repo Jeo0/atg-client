@@ -3736,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 267.97 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,7 +4415,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 166.37 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)

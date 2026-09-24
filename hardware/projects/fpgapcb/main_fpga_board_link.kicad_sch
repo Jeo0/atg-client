@@ -9163,6 +9163,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 87.63) (xy 297.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcff450-7361-4d23-8721-f7f57029708a")
+	)
+	(wire
+		(pts
 			(xy 186.69 255.27) (xy 200.66 255.27)
 		)
 		(stroke
@@ -9343,16 +9353,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 102.87) (xy 297.18 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582c7651-9e65-4f3d-9531-cce87587e45d")
-	)
-	(wire
-		(pts
 			(xy 524.51 190.5) (xy 551.18 190.5)
 		)
 		(stroke
@@ -9470,6 +9470,16 @@
 			(type default)
 		)
 		(uuid "5f273818-4073-4be0-9e94-76373496fa2b")
+	)
+	(wire
+		(pts
+			(xy 295.91 90.17) (xy 297.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd955a7-4c0d-4096-971c-ccfd35b91cfd")
 	)
 	(wire
 		(pts
@@ -11843,16 +11853,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 97.79) (xy 297.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50e4a9f-ad91-4177-b9b4-5f1f20af20f9")
-	)
-	(wire
-		(pts
 			(xy 416.56 234.95) (xy 417.83 234.95)
 		)
 		(stroke
@@ -12592,7 +12592,7 @@
 		(uuid "6c62e0c4-4ee4-48a5-bea3-fa3f68b9e52f")
 	)
 	(label "SLAVE-RELAY_D7-"
-		(at 295.91 97.79 180)
+		(at 295.91 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12912,7 +12912,7 @@
 		(uuid "9dd84868-94bf-4f4c-85f1-522e401b78ca")
 	)
 	(label "FTDI-D0"
-		(at 295.91 85.09 180)
+		(at 295.91 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12982,7 +12982,7 @@
 		(uuid "ad13545a-28c9-4fd2-966f-67e8f5dd3d8e")
 	)
 	(label "SLAVE-RELAY_D7+"
-		(at 295.91 102.87 180)
+		(at 295.91 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15026,7 +15026,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 71.12 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15184,7 +15184,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 152.4 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19086,7 +19086,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 215.265 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19632,7 +19632,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 133.35 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
