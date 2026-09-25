@@ -13,10 +13,14 @@
 - si_t17 - si_t26 bank 0 
 - si_t27 - si_t32 bank 8
 
+
 # notes_VSSIO6:
 - link1: https://www.latticesemi.com/support/answerdatabase/6/3/0/6302
 - according to link1, VSSIO6 is supposed to be connected to ground as it is the ground of the VCCIO pins of that bank (6).
 
+
+# notes_flashMCLK:
+- 
 
 
 # notes_programming:
