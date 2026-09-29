@@ -10,8 +10,8 @@
 - file1: FPGA-TN-02038-2-1-ECP5-and-ECP5-5G-Hardware-Checklist.pdf 
 - see table 2.1 for Vccio and banks from file1 page 8
 - si_t1 - si_t16 bank 1 
-- si_t17 - si_t26 bank 0 
-- si_t27 - si_t32 bank 8
+- si_t17 - si_t25 bank 0 
+- si_t26 - si_t32 bank 3
 
 
 # notes_VSSIO6:
@@ -69,10 +69,11 @@
 - See file1 page 43: 2.14.1. sysI/O Buffer Banks: no hot socketing = no removing or inserting other components connected to the pins or pads while the device is turned on. 
 - banks left (6, 7) and right (2, 3) do not support that. Only banks up (0, 1) and bottom banks (8, 4)
 - devices that are hot swappable are: 
-    - transducer array board  
     - CH340C debug (TX and RX remains connected regardless if device is connected to the port or not; IMPORTANT: ASSUMING the CH340C is powered by the board's own power, i.e. 3.3 V, and not powered through usb; right now it is powered through usb and thats not nice)
 - devices that are not hot swappable (same thing above with hot socketing) are:
+    - data & sync lines from master board to slave board
     - FTDI device (FT2232H)
+    - transducer array board  
 
 
 
