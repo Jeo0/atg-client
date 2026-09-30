@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OSCILLATOR-CRYSTAL-40MHZ:OSC-SMD_4P-L1.6-W1.2-BL_SCTF COPY FOOTPRINT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

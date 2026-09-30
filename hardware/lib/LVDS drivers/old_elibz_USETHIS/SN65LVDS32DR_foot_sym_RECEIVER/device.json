@@ -1,0 +1,156 @@
+{
+  "devices": {
+    "d47d17aa595a416ea583c402dda2656c": {
+      "uuid": "d47d17aa595a416ea583c402dda2656c",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "Symbol": "2ec78a797adb4cb69ac3e661e3f23f21",
+        "Footprint": "4959e4dfa86f4201a35b5dde58e69895",
+        "LCSC Part Name": "高速差分线接收器",
+        "Supplier Part": "C6913",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "SN65LVDS32DR",
+        "Supplier Footprint": "SOIC-16",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn65lvds32.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "U?",
+        "Type": "Receiver",
+        "Number of Drivers": "0",
+        "Number of Receivers": "4",
+        "Voltage - Supply": "3.3V~3.6V",
+        "Data Rate": "100Mbps",
+        "Operating Temperature": "-40℃~+85℃",
+        "Level Standard": "LVDS",
+        "Features": "Fail-safe",
+        "Name": "={Manufacturer Part}",
+        "Description": "Type:Receiver Number of Drivers:0 Number of Receivers:4 Voltage - Supply:3.3V~3.6V Voltage - Supply:3.3V~3.6V Data Rate:100Mbps Operating Temperature:-40℃~+85℃ Operating Temperature:-40℃~+85℃ Level Standard:LVDS Features:Fail-safe "
+      },
+      "images": null,
+      "ticket": 368,
+      "updateTime": 1660159325000,
+      "createTime": 1648891374000,
+      "title": "sn65lvds32dr",
+      "description": "",
+      "display_title": "SN65LVDS32DR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "tags": {
+        "parent_tag": {
+          "uuid": "ff484cbb73ed46c796df385c6ee3d343",
+          "name": "Interface",
+          "name_cn": "通信接口芯片"
+        },
+        "child_tag": {
+          "uuid": "f2b30979db7c409f9c5e4c239281f8d1",
+          "name": "LVDS ICs",
+          "name_cn": "LVDS芯片"
+        }
+      },
+      "source": "4fa91ab18d565aeb",
+      "version": "a8c1cf201e1aa972",
+      "symbol_type": 2,
+      "tag": {},
+      "footprint_type": 4
+    }
+  },
+  "symbols": {
+    "2ec78a797adb4cb69ac3e661e3f23f21": {
+      "uuid": "2ec78a797adb4cb69ac3e661e3f23f21",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 1,
+      "updateTime": 1735280106000,
+      "createTime": 1648878683000,
+      "title": "SN65LVDS32DR",
+      "description": "",
+      "display_title": "SN65LVDS32DR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "tags": {
+        "parent_tag": {
+          "uuid": "092839e730934376a24cca7eeee4365e",
+          "name": "Interface",
+          "name_cn": "通信接口芯片"
+        },
+        "child_tag": {
+          "uuid": "dfb551146b544702a2df69b6e8d5b8a2",
+          "name": "LVDS ICs",
+          "name_cn": "LVDS芯片"
+        }
+      },
+      "source": "4fa91ab18d565aeb",
+      "version": "1790778767675",
+      "docType": 2,
+      "type": 2,
+      "desc": ""
+    }
+  },
+  "footprints": {
+    "4959e4dfa86f4201a35b5dde58e69895": {
+      "uuid": "4959e4dfa86f4201a35b5dde58e69895",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 1,
+      "updateTime": 1657269413000,
+      "createTime": 1648887124000,
+      "title": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+      "description": ";SOIC-16;SOP-16;SOIC-14;SO-16;QSOP-16;-;TSSOP-16;SOIC-16-150mil;SOIC-16_150mil;SOIC-16-N;SOIC-16_N;16-SOIC;DIP-16;DSO-16;NB-DSO-16;PG-DSO-16;SO-16-300mil;SOIC;SSOP-16;SOIC-16NB;SOIC-16-300mil;SOP16;SOIC-Narrow-16;---;SOP-16-150mil;nSOIC-16;MAX14930AASE+;FLP-16;SO-16-150mil;SOIC-16_3.9X9.9X1.27P;SOIC-16_39MM;SOIC16_39MM;SOP-16_150mil;SOIC-16_4.4mm;SSOP-16(4.9x3.9x0.635);SOIC-16_L10.0-W3.9-P1.27-LS6.0-BL;SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL;SOP-16_L9.9-W3.9-P1.27-LS6.0BL;SSOP-16_L4.9-W3.9-P0.635-LS6.0-TL;SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL;LC-SOIC-16_150mil;SOP-16_150MIL;3.6V1200mAh;TRSF16128B;SOP-16_L10.0-W3.9-P1.27-LS6.0-BL;SO16;集成电路,(贴片)WS3232ESOIC-16,RoHS;SOP14;WB SOIC-16;NB SOIC-16;SO-P16_150mil;SOP16-150MIL;SOP-16-150MIL;PRSP0016DH-A_N;SOP-16_150mIL;NB_SOIC16;TD5325A;SOIC-16-NB;SO-16EIAJ;SOP-16(9.9x3.9x1.27);CDIP-16;SOIC16;FZH114C;XW06-A;SOP-16_L9.9-W3.9-P1.27-LS6.0-BL;PDIP-16;SO-16P;SOIC-16_L9.9-W3.9-P1.27-LS6.0-;SOP16_150mil;SOP-16L;SOP16-150mil;SO16_150mil;SO16NB;SO16-N;SOIC-16-150MIL;SO-16-150MIL;SOP16L;NBSOIC-16;NSOP-16;16pin NSOP;SOP-16_L9.9-W3.9-P1.27-LS6.0;SOIC-16_NB;SOIC16-150mil;SOIC16-NB(N);SOT-109;SOP-16(10.3x3.95x1.27mm);SOP-16_L10.0-W3.9-P1.27-LS6.0-TL;SOP-16, 150mil;SOP-16_L9.9-W3.9-P1.27-LS6.1;SO16-150mil",
+      "display_title": "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "tags": {
+        "parent_tag": {
+          "uuid": "369f9f2f19564f0babc408068dcb8af2",
+          "name": "SOIC-16",
+          "name_cn": ""
+        },
+        "child_tag": []
+      },
+      "source": "f0815581da262a24",
+      "version": "1790778106141",
+      "docType": 4,
+      "type": 4,
+      "desc": ";SOIC-16;SOP-16;SOIC-14;SO-16;QSOP-16;-;TSSOP-16;SOIC-16-150mil;SOIC-16_150mil;SOIC-16-N;SOIC-16_N;16-SOIC;DIP-16;DSO-16;NB-DSO-16;PG-DSO-16;SO-16-300mil;SOIC;SSOP-16;SOIC-16NB;SOIC-16-300mil;SOP16;SOIC-Narrow-16;---;SOP-16-150mil;nSOIC-16;MAX14930AASE+;FLP-16;SO-16-150mil;SOIC-16_3.9X9.9X1.27P;SOIC-16_39MM;SOIC16_39MM;SOP-16_150mil;SOIC-16_4.4mm;SSOP-16(4.9x3.9x0.635);SOIC-16_L10.0-W3.9-P1.27-LS6.0-BL;SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL;SOP-16_L9.9-W3.9-P1.27-LS6.0BL;SSOP-16_L4.9-W3.9-P0.635-LS6.0-TL;SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL;LC-SOIC-16_150mil;SOP-16_150MIL;3.6V1200mAh;TRSF16128B;SOP-16_L10.0-W3.9-P1.27-LS6.0-BL;SO16;集成电路,(贴片)WS3232ESOIC-16,RoHS;SOP14;WB SOIC-16;NB SOIC-16;SO-P16_150mil;SOP16-150MIL;SOP-16-150MIL;PRSP0016DH-A_N;SOP-16_150mIL;NB_SOIC16;TD5325A;SOIC-16-NB;SO-16EIAJ;SOP-16(9.9x3.9x1.27);CDIP-16;SOIC16;FZH114C;XW06-A;SOP-16_L9.9-W3.9-P1.27-LS6.0-BL;PDIP-16;SO-16P;SOIC-16_L9.9-W3.9-P1.27-LS6.0-;SOP16_150mil;SOP-16L;SOP16-150mil;SO16_150mil;SO16NB;SO16-N;SOIC-16-150MIL;SO-16-150MIL;SOP16L;NBSOIC-16;NSOP-16;16pin NSOP;SOP-16_L9.9-W3.9-P1.27-LS6.0;SOIC-16_NB;SOIC16-150mil;SOIC16-NB(N);SOT-109;SOP-16(10.3x3.95x1.27mm);SOP-16_L10.0-W3.9-P1.27-LS6.0-TL;SOP-16, 150mil;SOP-16_L9.9-W3.9-P1.27-LS6.1;SO16-150mil"
+    }
+  }
+}

@@ -3,4 +3,6 @@
 	(lib (name "Library LFE5U V1") (type "KiCad") (uri "C:/Users/JC/OneDrive/Documents/LFE5U-25F-7TG144C/Library.pretty") (options "") (descr ""))
 	(lib (name "Library LFE5U V2") (type "KiCad") (uri "C:/Users/JC/OneDrive/Documents/tesis/atg-client/hardware/lib/LFE5U-25F-7TG144C/Library.pretty") (options "") (descr ""))
 	(lib (name "LFE5U-25F-7TG144C") (type "KiCad") (uri "C:/Users/JC/OneDrive/Documents/tesis/atg-client/hardware/lib/LFE5U-25F-7TG144C/LFE5U-25F-7TG144C.pretty") (options "") (descr ""))
+	(lib (name "LVDS_footprint") (type "KiCad") (uri "/mnt/microsdko/school/4thyr/thesis/actual/hardware/lib/LVDS drivers/old_elibz_USETHIS/LVDS_footprint.pretty") (options "") (descr ""))
+	(lib (name "OSCILLATOR-CRYSTAL-40MHZ") (type "KiCad") (uri "/mnt/microsdko/school/4thyr/thesis/actual/hardware/lib/crystal oscillator/final oscillator/oscillator footprint/OSCILLATOR-CRYSTAL-40MHZ.pretty") (options "") (descr ""))
 )

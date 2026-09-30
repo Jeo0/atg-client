@@ -15,3 +15,6 @@ https://www.alldatasheet.com/datasheet-pdf/download/575455/MCNIX/MX25L3206E.html
 
 other pcb and schematic design reference:
 https://github.com/kelu124/awesome-latticeFPGAs
+
+LVDS reference: 
+https://www.telewiretech.com/blogs/technical-resources/what-is-an-lvds-cable-applications-technical-specs-for-custom-harnesses
