@@ -8294,7 +8294,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "124face8-58c2-4205-b12d-f1668bceff11")
-		(property "Sheetname" "FPGA_POWER"
+		(property "Sheetname" "Decoupling caps"
 			(at 212.09 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8305,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FPGA_POWER.kicad_sch"
+		(property "Sheetfile" "Decoupling_caps.kicad_sch"
 			(at 212.09 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
