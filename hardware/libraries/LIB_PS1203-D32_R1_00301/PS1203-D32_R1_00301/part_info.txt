@@ -1,0 +1,9 @@
+Manufacturer=PANJIT
+PartNumber=PS1203-D32_R1_00301
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2024-10-23 07:11:16
+Downloaded=2026-11-02 08:04:09
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B74111U0033M060
+PartCategory=Zener Diode
+PackageCategory=Other
+PinCount=2
+Version=3.9
+Released=2021-09-15 11:48:01
+Downloaded=2026-11-02 09:02:00
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=QTH-030-01-L-D-A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=60
+Version=2.1
+Released=2017-07-28 16:31:46
+Downloaded=2026-11-02 09:24:31
+3D=Y

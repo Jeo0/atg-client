@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B74111U0033M060
+D TVS Diodes, Max. working voltage=3.3V DC, Capacitance(typ)=0.48pF
+K
+F https://product.tdk.com/system/files/dam/doc/product/protection/voltage/tvs_diode/data_shee/75/ds/b74111u0033m060_tvs01005sl.pdf
+$ENDCMP
+#
+#End Doc Library
