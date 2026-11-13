@@ -1,0 +1,702 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7cdcdc1c-5687-4698-8c59-37e63dba867f")
+	(paper "A5")
+	(lib_symbols
+		(symbol "InteractLab:M3 Mounting Hole"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*M3{space}STAND{space}OFF{space}-{space}RING*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "M3 Mounting Hole_1_0"
+				(circle
+					(center 0 0)
+					(radius 2.564)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.911)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Stand offs"
+		(exclude_from_sim no)
+		(at 97.79 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ce051c4-5f3d-4b46-832d-a6cc2f04f591")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df7b713-91f7-45e8-b5a1-803a715cd21e")
+	)
+	(bus
+		(pts
+			(xy 128.27 54.61) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "753e4642-cc49-48e4-88d2-f0616c7300ac")
+	)
+	(wire
+		(pts
+			(xy 82.55 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e342319-ac93-43bd-9cfc-ac124640e726")
+	)
+	(wire
+		(pts
+			(xy 82.55 54.61) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e900fbe-a680-4dea-b223-2c467aef6a1c")
+	)
+	(label "DS"
+		(at 87.63 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20821ef7-73c0-41c0-a1f1-bee61d1abc8f")
+	)
+	(label "STCP"
+		(at 123.19 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6750cc49-4380-44bd-a1bb-193bc8c80689")
+	)
+	(label "DS[1..32]"
+		(at 119.38 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1d49bb6-b0ab-416a-91d2-2409a5c6e969")
+	)
+	(label "SHCP"
+		(at 123.19 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3fa8550-2838-409b-97f5-5a18758e9430")
+	)
+	(symbol
+		(lib_id "InteractLab:M3 Mounting Hole")
+		(at 122.174 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f657a86-cae7-4c9e-8c19-89c9803f989d")
+		(property "Reference" "HOLE4"
+			(at 117.094 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3 Mounting Hole"
+			(at 118.364 96.012 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M3 STAND OFF - RING"
+			(at 122.174 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.174 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 122.174 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "arrayboard_Top"
+				(path "/7cdcdc1c-5687-4698-8c59-37e63dba867f"
+					(reference "HOLE4")
+					(unit 1)
+				)
+			)
+			(project "MotherBoard"
+				(path "/a5309baf-63ce-4037-804b-5e59210034d9/9f69a791-1ba9-4806-b8fd-2b730af32631"
+					(reference "HOLE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InteractLab:M3 Mounting Hole")
+		(at 87.884 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6515e012-15ef-4627-a7ce-e3e17c01a636")
+		(property "Reference" "HOLE1"
+			(at 82.973 81.449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3 Mounting Hole"
+			(at 82.973 93.811 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M3 STAND OFF - RING"
+			(at 87.884 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.884 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.884 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "arrayboard_Top"
+				(path "/7cdcdc1c-5687-4698-8c59-37e63dba867f"
+					(reference "HOLE1")
+					(unit 1)
+				)
+			)
+			(project "MotherBoard"
+				(path "/a5309baf-63ce-4037-804b-5e59210034d9/9f69a791-1ba9-4806-b8fd-2b730af32631"
+					(reference "HOLE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InteractLab:M3 Mounting Hole")
+		(at 99.314 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a94c3b0b-ea05-44c4-9a2e-9b768749f9d9")
+		(property "Reference" "HOLE2"
+			(at 94.403 81.449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3 Mounting Hole"
+			(at 94.403 93.811 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M3 STAND OFF - RING"
+			(at 99.314 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.314 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.314 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "arrayboard_Top"
+				(path "/7cdcdc1c-5687-4698-8c59-37e63dba867f"
+					(reference "HOLE2")
+					(unit 1)
+				)
+			)
+			(project "MotherBoard"
+				(path "/a5309baf-63ce-4037-804b-5e59210034d9/9f69a791-1ba9-4806-b8fd-2b730af32631"
+					(reference "HOLE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InteractLab:M3 Mounting Hole")
+		(at 110.744 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5e602f0-6560-4cb3-bb29-ae6c8d1ad202")
+		(property "Reference" "HOLE3"
+			(at 105.664 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3 Mounting Hole"
+			(at 106.934 96.012 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M3 STAND OFF - RING"
+			(at 110.744 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.744 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.744 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "arrayboard_Top"
+				(path "/7cdcdc1c-5687-4698-8c59-37e63dba867f"
+					(reference "HOLE3")
+					(unit 1)
+				)
+			)
+			(project "MotherBoard"
+				(path "/a5309baf-63ce-4037-804b-5e59210034d9/9f69a791-1ba9-4806-b8fd-2b730af32631"
+					(reference "HOLE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 39.37)
+		(size 24.13 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "38d2caf3-a68e-4e35-9534-9bcf249cf5a2")
+		(property "Sheetname" "Repeat(S,1,32)"
+			(at 58.42 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ShiftAmplifyEmit.kicad_sch"
+			(at 58.42 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "Storage CLK" input
+			(at 82.55 44.45 0)
+			(uuid "f2237ebc-a125-4c0f-817d-01694ed3fcad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Shift CLK" input
+			(at 82.55 49.53 0)
+			(uuid "39df7d5d-2bf3-4592-8828-289772e7fab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Repeat(DS)" input
+			(at 82.55 54.61 0)
+			(uuid "9bacd3b8-b163-4d4a-a249-cd240f177580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MotherBoard"
+				(path "/a5309baf-63ce-4037-804b-5e59210034d9/9f69a791-1ba9-4806-b8fd-2b730af32631"
+					(page "5")
+				)
+			)
+			(project "arrayboard_Top"
+				(path "/7cdcdc1c-5687-4698-8c59-37e63dba867f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 39.37)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "84c641db-45a0-4b99-9efe-d60c23d07a9a")
+		(property "Sheetname" "ToBreakout"
+			(at 128.27 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Headers.kicad_sch"
+			(at 128.27 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "Storage CLK" output
+			(at 128.27 44.45 180)
+			(uuid "be85831a-c643-48e4-8fe6-0cba6a17be37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Shift CLK" output
+			(at 128.27 49.53 180)
+			(uuid "6b94f0ab-99ce-49c2-9a71-53f1860d8864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DS[1..32]" output
+			(at 128.27 54.61 180)
+			(uuid "694e9dfd-1688-461c-b67a-5552b8fbca77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MotherBoard"
+				(path "/a5309baf-63ce-4037-804b-5e59210034d9/9f69a791-1ba9-4806-b8fd-2b730af32631"
+					(page "6")
+				)
+			)
+			(project "arrayboard_Top"
+				(path "/7cdcdc1c-5687-4698-8c59-37e63dba867f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
