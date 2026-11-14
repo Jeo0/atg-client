@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=CRJ011-ML3-TH
+PartCategory=Connector
+PackageCategory=Other
+PinCount=14
+Version=10.4
+Released=2021-10-10 21:03:09
+Downloaded=2026-11-10 10:17:12
+3D=Y

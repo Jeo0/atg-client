@@ -1597,6 +1597,701 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+1V1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V1"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V1\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+2V5"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+2V5"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+2V5\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+2V5_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+2V5_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1857,6 +2552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "191ece10-9492-47c9-b0c1-60379e3c581a")
+	)
+	(junction
+		(at 38.1 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af4e708-c3f6-4b74-b60b-d0411f5bbb3c")
 	)
 	(junction
 		(at 38.1 67.31)
@@ -2337,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "3be19c03-de6d-4fc1-a451-50e8b133c072")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 44.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f44d612-61aa-4f37-a577-34092b918a18")
 	)
 	(wire
 		(pts
@@ -3210,7 +3921,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 102.87) (xy 44.45 102.87)
+			(xy 33.02 102.87) (xy 38.1 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3378,16 +4089,6 @@
 		)
 		(uuid "fff68e46-0cea-4ab8-95f1-aadf58121d93")
 	)
-	(label "5V"
-		(at 266.7 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "096d6d37-17ea-4deb-851f-8381e1a259ef")
-	)
 	(label "12V"
 		(at 92.71 41.91 0)
 		(effects
@@ -3407,66 +4108,6 @@
 			(justify left bottom)
 		)
 		(uuid "5dbcca18-240c-4dee-a337-924596220382")
-	)
-	(label "1V1"
-		(at 93.98 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a449e98-4b75-4e0a-bec8-781a25bdd74b")
-	)
-	(label "3.3V"
-		(at 36.83 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a99653ce-c84c-4848-b190-56cb74f8dd4a")
-	)
-	(label "12V"
-		(at 25.4 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afe7577a-699b-451b-befb-2cc4ece0a19f")
-	)
-	(label "2V5"
-		(at 90.17 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d670a956-55ba-41c9-b0a5-4de79f4c8c6c")
-	)
-	(label "3.3V"
-		(at 31.75 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea56cf64-6a43-4d4d-ae8a-f16efa8c10fc")
-	)
-	(label "3.3V"
-		(at 133.35 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f88071f1-d71e-4338-888b-e8b490510069")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3542,9 +4183,15 @@
 			(uuid "8beefa07-4714-4026-8d8d-c76c31b0cdf2")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C78")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C78")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3624,9 +4271,15 @@
 			(uuid "755c09bc-54d9-46ad-81f9-00bdf93f4289")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R16")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3706,9 +4359,15 @@
 			(uuid "2dd1d80b-a551-4dc2-8cdc-388d76987a9b")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R15")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3784,9 +4443,15 @@
 			(uuid "10ade985-093e-40ca-ab32-b974f1df1b1d")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3864,9 +4529,15 @@
 			(uuid "04bc656c-7249-4acf-86e1-31a9918d7183")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C76")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C76")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3946,9 +4617,185 @@
 			(uuid "0130900f-7078-4913-8c9d-12ddaf568114")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R18")
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192fe959-910d-4aa5-b3c2-5ad1bb68e27a")
+		(property "Reference" "#PWR0242"
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d365b00-f8ea-4453-a4e0-2d2b6df4eefa")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 93.98 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1be33871-91f6-4ced-9bb4-67fdfdf7e420")
+		(property "Reference" "#PWR0244"
+			(at 90.17 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 97.79 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 93.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a4ae358-5f6b-46c8-bcac-e466e028bab9")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -4028,9 +4875,15 @@
 			(uuid "cd63284f-ebd7-490f-81a2-86e8b5645eca")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R34")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R34")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4108,9 +4961,15 @@
 			(uuid "4dc07051-1e79-48c8-8958-0a8568f74347")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4186,9 +5045,15 @@
 			(uuid "6075b8f7-ce01-46dd-a56d-c3daebe95142")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0505")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0505")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -4264,9 +5129,15 @@
 			(uuid "60b0920b-1eeb-446c-8855-13246782967d")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0507")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0507")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -4355,9 +5226,15 @@
 			(uuid "9d348d9e-c833-4de2-9a5f-db7018e92a26")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "U10")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4437,9 +5314,15 @@
 			(uuid "0f55c321-98d6-4e9f-ade8-4c2497a7e2df")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C72")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C72")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4519,9 +5402,15 @@
 			(uuid "2ac9c2f2-d380-4a9b-bb4f-2f082155f86f")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C80")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C80")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4599,9 +5488,15 @@
 			(uuid "e902191e-e98d-4e4a-a452-59d4373b02ae")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "J4")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4681,9 +5576,15 @@
 			(uuid "0f980f7f-d180-4949-adba-a1502802c575")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R19")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4763,9 +5664,15 @@
 			(uuid "0db70854-d0a0-45ba-a136-887cc558a054")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C74")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C74")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4840,9 +5747,15 @@
 			(uuid "8958186c-875a-4c70-a227-7b870dac32af")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0524")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0524")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -4918,9 +5831,15 @@
 			(uuid "c5808096-ff7f-4752-b4be-4257e0e2998e")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0502")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -5000,9 +5919,15 @@
 			(uuid "a2a22d8d-1b47-4209-8b2e-8aba904575e2")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R17")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -5082,9 +6007,15 @@
 			(uuid "0adc9c8d-4e16-4bff-a377-0eeb90e17418")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R28")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5160,9 +6091,15 @@
 			(uuid "191ff897-5b3a-4007-a098-22b661ad69e1")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0501")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -5242,9 +6179,15 @@
 			(uuid "223ad797-9a09-43a8-adbd-478e01b75bdd")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C66")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C66")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5324,9 +6267,15 @@
 			(uuid "2f8274aa-e100-4edf-8d60-89f482a01483")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C77")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C77")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5406,9 +6355,15 @@
 			(uuid "eb35bbaa-7b93-473c-b78c-aca6c66f9be8")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "D2")
+					(reference "D111")
 					(unit 1)
 				)
 			)
@@ -5488,9 +6443,15 @@
 			(uuid "1d9cdebe-1dd2-4041-9204-31724a31af4c")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R14")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5570,9 +6531,15 @@
 			(uuid "fd857884-bd93-41a5-bc23-d93fa289513b")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R36")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R36")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5650,9 +6617,15 @@
 			(uuid "18ccebe8-885b-419d-9562-dd5fb91c1f02")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "D1")
+					(reference "D110")
 					(unit 1)
 				)
 			)
@@ -5732,9 +6705,185 @@
 			(uuid "a920a9dc-f540-4883-9e91-c8feb2bae615")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C75")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C75")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81f4b3b4-9e04-4924-a80f-1a001131ebda")
+		(property "Reference" "#PWR0246"
+			(at 35.56 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 27.94 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84815ea0-b8e6-4334-8fcd-e9f6eb9c5f67")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 90.17 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ebb323-d993-4509-b384-292150b817a7")
+		(property "Reference" "#PWR0245"
+			(at 86.36 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+2V5"
+			(at 93.98 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be78b09a-261b-4b6d-bb3a-71124cd1a041")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -5825,9 +6974,15 @@
 			(uuid "c23552ee-06f2-4eb4-a8aa-602692bba073")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "U11")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5903,9 +7058,15 @@
 			(uuid "bde9224a-9df8-442e-829f-2f7fc056f863")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0504")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -5985,9 +7146,15 @@
 			(uuid "0bc4a9e1-1377-4038-b6db-bc84a394685a")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C69")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C69")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6076,9 +7243,15 @@
 			(uuid "256ba4e7-6054-45fb-88c0-3e3e9de384ba")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6156,9 +7329,99 @@
 			(uuid "df5a0f1d-d950-491b-a0c8-751bfd69075b")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "L3")
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92437513-f911-4c62-aca8-db980cc701d1")
+		(property "Reference" "#PWR0247"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bce0bc83-2ece-4540-b169-f8c4b71913ae")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -6238,9 +7501,15 @@
 			(uuid "d1c47461-bde2-471a-9572-06da55e45729")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C67")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C67")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6315,9 +7584,15 @@
 			(uuid "40328162-3272-4791-b066-b7ae4df028bc")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0518")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0518")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -6395,6 +7670,12 @@
 			(uuid "094b112a-a5f1-4aa0-b641-822236272316")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
 					(reference "L2")
@@ -6472,9 +7753,15 @@
 			(uuid "bb0e2a46-7245-4b0a-b345-54531a2cd095")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0526")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0526")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -6550,9 +7837,15 @@
 			(uuid "5d8c58b6-2613-4380-82ca-80e149d06013")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0503")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0503")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -6630,6 +7923,12 @@
 			(uuid "8e86a641-e044-48c2-a514-5fcbcdaa250c")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "L4")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
 					(reference "L4")
@@ -6708,9 +8007,100 @@
 			(uuid "70501867-096d-4965-869e-94d4b39a90c0")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0499")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0499")
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4b79e1-6186-41e0-9198-234a2a13cdcd")
+		(property "Reference" "#PWR0241"
+			(at 29.21 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+20V"
+			(at 21.59 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 25.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc914ad1-1f51-4ca3-91f9-3da422e506ff")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -6790,9 +8180,15 @@
 			(uuid "a78bc66f-edd1-4634-9931-397b491bccd3")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C79")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C79")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6872,9 +8268,15 @@
 			(uuid "8eedaec2-fa16-4617-9dc8-3fd6b864317c")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R35")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -6950,9 +8352,15 @@
 			(uuid "dad6b866-d54d-41a7-ba54-c7ff9f1291fc")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0508")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0508")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -7027,9 +8435,15 @@
 			(uuid "49bbc494-36da-4673-a26d-3818d7e2dbc5")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0517")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0517")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -7104,9 +8518,15 @@
 			(uuid "34b2500e-491f-4acd-830c-432647c38901")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0500")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0500")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -7186,9 +8606,15 @@
 			(uuid "73d191d9-eb09-4b46-848c-187c61f80131")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "R30")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7263,9 +8689,15 @@
 			(uuid "2d76301b-e960-4cad-9807-48425296f54a")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0525")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0525")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -7345,9 +8777,15 @@
 			(uuid "53441201-90d5-488d-b444-5684f11e3745")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C73")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C73")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7427,9 +8865,15 @@
 			(uuid "e8992bf3-5e35-44cd-9357-9afe010a1b43")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C71")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C71")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7505,9 +8949,15 @@
 			(uuid "1f7bcedb-e514-438e-a74b-b59721be630e")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0506")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0506")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -7585,9 +9035,15 @@
 			(uuid "5b90d292-f480-48b8-b707-cbd522ee9305")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C70")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C70")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7663,9 +9119,15 @@
 			(uuid "15e82341-e8e6-4a7d-b227-826ab3032c74")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0498")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "#PWR0498")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -7756,9 +9218,15 @@
 			(uuid "7830cc68-052d-456d-a894-a63918e51211")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7838,9 +9306,100 @@
 			(uuid "54615fae-801d-4182-9af7-288d3f0dbb68")
 		)
 		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "C68")
+					(unit 1)
+				)
+			)
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
-					(reference "C68")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff73d21c-325d-4040-8579-7718edf1ffd1")
+		(property "Reference" "#PWR0243"
+			(at 262.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 270.51 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 266.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f6e27f1-4b3a-444b-922b-3deee1350bf3")
+		)
+		(instances
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -7888,6 +9447,11 @@
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a/fb881bf1-2304-4d6c-8b51-f5f61be107d3"
 					(page "5")
+				)
+			)
+			(project "slave"
+				(path "/3ec94ef7-cf8d-409d-a334-c6f12db2223f/9f3a3f12-e4d5-4c18-b4f2-068b7a42b441"
+					(page "3")
 				)
 			)
 		)

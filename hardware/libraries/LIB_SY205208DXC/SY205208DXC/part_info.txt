@@ -1,0 +1,9 @@
+Manufacturer=Silergy
+PartNumber=SY205208DXC
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=2
+Version=2.2
+Released=2024-10-27 10:23:55
+Downloaded=2026-11-09 10:24:36
+3D=Y

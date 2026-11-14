@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC1533-01FTG
+D Bidirectional 3.3V, 15A, SOD323, General purpose ESD Protection
+K
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=c77f8353-735b-4dc1-90b7-28d90562bef2&filename=littelfuse-tvs-diode-array-sc1533-01ftg-datasheet
+$ENDCMP
+#
+#End Doc Library

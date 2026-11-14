@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=74HC14D-Q100,118
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2019-11-12 07:41:52
+Downloaded=2026-11-10 07:15:28
+3D=Y

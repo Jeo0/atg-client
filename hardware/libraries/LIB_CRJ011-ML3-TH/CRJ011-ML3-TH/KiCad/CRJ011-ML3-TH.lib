@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CRJ011-ML3-TH
+#/15312868/2216098/2.50/14/2/Connector
+DEF CRJ011-ML3-TH J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "CRJ011-ML3-TH" 850 200 50 H V L CNN
+F2 "CRJ011ML3TH" 850 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/crj011-ml1-th.pdf" 850 0 50 H I L CNN
+F4 "CRJ011-ML3-TH - 10/100 BaseT, 8P8C, Horizontal, Shielded, LED, Through Hole, 30 in Plating, RJ45 with Integrated Magnetics Modular Connector" 850 -100 50 H I L CNN "Description"
+F5 "13.85" 850 -200 50 H I L CNN "Height"
+F6 "490-CRJ011-ML3-TH" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Same-Sky/CRJ011-ML3-TH?qs=iLbezkQI%252BsiHIm7ab6t71Q%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CRJ011-ML3-TH" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A_1 9 0 0 200 R 50 50 0 0 P
+X K_1 10 0 -100 200 R 50 50 0 0 P
+X K_2 11 0 -200 200 R 50 50 0 0 P
+X A_2 12 0 -300 200 R 50 50 0 0 P
+X P1 P1 0 -400 200 R 50 50 0 0 P
+X P2 P2 0 -500 200 R 50 50 0 0 P
+X P3 P3 0 -600 200 R 50 50 0 0 P
+X P4 P4 1000 0 200 L 50 50 0 0 P
+X P5 P5 1000 -100 200 L 50 50 0 0 P
+X P6 P6 1000 -200 200 L 50 50 0 0 P
+X P7 P7 1000 -300 200 L 50 50 0 0 P
+X P8 P8 1000 -400 200 L 50 50 0 0 P
+X MH1 MH1 1000 -500 200 L 50 50 0 0 P
+X MH2 MH2 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
