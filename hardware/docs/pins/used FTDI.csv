@@ -1,4 +1,8 @@
-FT2232H Mini Module ,,,,
+,,,,
+,,,,
+THIS IS OUR USED FTDI pins:,,,,
+,,,,
+,,,,
 Channel A (user circuit),,,,
 PIN#,Pin Name,Actual FT2232H IC pin#,Function,FINAL used
 CN2-1,V3V3,,3.3VDC generated from VCC (output),+3.3V
@@ -27,7 +31,6 @@ CN2-23,AC6,33,FT2232H AC6 pin,FTDI-OE#
 CN2-24,AC5,32,FT2232H AC5 pin,FTDI-CLKOUT 
 CN2-25,SUSPEND#,36,FT2232H SUSPEND# pin,
 CN2-26,AC7,34,FT2232H AC7 pin,
-,,,,
 ,,,,
 ,,,,
 Channel B (JTAG circuit),,,,

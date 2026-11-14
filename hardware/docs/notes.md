@@ -36,6 +36,7 @@
 - pull up pin FLASH-MCLK according to notes #6 on page 14 of file1 (1K)
 - by default, once power is on the FPGA and the SPI flash (we are in Master SPI mode), it proceeds to download the program from the SPI flash through serial and slow read. see 6.1. Master SPI Modes page 26 of file1.
 - "A port is said to be a configuration port when it is capable of executing both bitstream write and read commands. And this is the only method that users can use to perform a DUAL read and a QUAD read from SPI Flash." see file1, 6.1.1 Method to Enable the Master SPI Port page 27
+- 
 
 
 # notes_resetMechanism:
