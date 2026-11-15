@@ -13481,10 +13481,6 @@
 		(uuid "fff277ed-14de-4887-b98a-096fa5d8cae0")
 	)
 	(no_connect
-		(at 82.55 303.53)
-		(uuid "1ab10807-22e1-421f-90fb-eb631ce5bc32")
-	)
-	(no_connect
 		(at 100.33 303.53)
 		(uuid "52a1502c-c081-4387-91df-ecd2cf48cfb0")
 	)
@@ -19558,6 +19554,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 303.53) (xy 81.28 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a744b36b-ffd4-4ba7-b643-e667e6338414")
+	)
+	(wire
+		(pts
 			(xy 148.59 431.8) (xy 149.86 431.8)
 		)
 		(stroke
@@ -19575,16 +19581,6 @@
 			(type default)
 		)
 		(uuid "a757d455-f021-453c-8a86-484866ef627c")
-	)
-	(wire
-		(pts
-			(xy 81.28 303.53) (xy 81.28 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a744b36b-ffd4-4ba7-b643-e667e6338414")
 	)
 	(wire
 		(pts
@@ -60203,6 +60199,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 313.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d510c76c-a63b-45b6-9ff8-9fa48d221f1a")
+		(property "Reference" "C9"
+			(at 129.54 312.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15 PF"
+			(at 129.54 314.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 126.6952 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68bb3623-eb9d-4f4c-b67b-dcab9058aeb3")
+		)
+		(pin "1"
+			(uuid "294b482b-c970-4498-b116-90ceaf3faa3b")
+		)
+		(instances
+			(project "main_fpga_board_link"
+				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PS1203-D32_R1_00301:PS1203-D32_R1_00301")
 		(at 68.58 53.34 90)
 		(unit 1)
@@ -60340,88 +60418,6 @@
 			(project "main_fpga_board_link"
 				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 313.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d510c76c-a63b-45b6-9ff8-9fa48d221f1a")
-		(property "Reference" "C9"
-			(at 129.54 312.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15 PF"
-			(at 129.54 314.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 126.6952 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "68bb3623-eb9d-4f4c-b67b-dcab9058aeb3")
-		)
-		(pin "1"
-			(uuid "294b482b-c970-4498-b116-90ceaf3faa3b")
-		)
-		(instances
-			(project "main_fpga_board_link"
-				(path "/de89ff7a-3cfc-4f81-afc2-8cb9be17c69a"
-					(reference "C9")
 					(unit 1)
 				)
 			)
