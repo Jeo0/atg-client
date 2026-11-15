@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D20V0L1B2WS-7
+D Diodes Inc D20V0L1B2WS-7 Bi-Directional TVS Diode, 90W peak, 2-Pin SOD-323
+K
+F https://www.diodes.com/assets/Datasheets/D20V0L1B2WSQ.pdf
+$ENDCMP
+#
+#End Doc Library

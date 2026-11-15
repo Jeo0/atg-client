@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRJ011-ML3-TH
+D CRJ011-ML3-TH - 10/100 BaseT, 8P8C, Horizontal, Shielded, LED, Through Hole, 30 in Plating, RJ45 with Integrated Magnetics Modular Connector
+K
+F https://www.sameskydevices.com/product/resource/crj011-ml1-th.pdf
+$ENDCMP
+#
+#End Doc Library

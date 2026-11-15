@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=D20V0L1B2WS-7
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=5.1
+Released=2020-07-20 06:25:56
+Downloaded=2026-11-09 09:02:56
+3D=Y

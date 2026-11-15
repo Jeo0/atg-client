@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC14D-Q100,118
+D 74HC(T)14-Q100 - Hex inverting Schmitt trigger@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT14_Q100.pdf
+$ENDCMP
+#
+#End Doc Library
