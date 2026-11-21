@@ -1,0 +1,8 @@
+what is meant by "per channel" in page 56 of the ecp5 family data sheet?  And what are those tx and rx got to do with the op? 
+I have not yet done the hdl files so I cant estimate through diamond's power calculator tool. Do you have a hunch in what data rate this project's hdl implementations will have? 
+
+Also what are those sys/IO recommended operating conditions, such as LVCMOS33, SSTL15_I, _II and other things?
+
+
+
+ 
