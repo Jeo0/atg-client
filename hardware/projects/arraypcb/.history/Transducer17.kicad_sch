@@ -2313,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 30.48) (xy 82.55 22.86)
+			(xy 82.55 30.48) (xy 82.55 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2521,7 @@
 		)
 		(uuid "fd8ec748-1035-4715-bdc2-97324e165b53")
 	)
-	(global_label "SCK"
+	(global_label "ARRAY-SCK"
 		(shape input)
 		(at 77.47 35.56 0)
 		(fields_autoplaced yes)
@@ -2533,7 +2533,7 @@
 		)
 		(uuid "06d2f6de-6684-4271-8de7-df587588751b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.8575 35.56 0)
+			(at 88.7601 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2545,7 @@
 			)
 		)
 	)
-	(global_label "RCK"
+	(global_label "ARRAY-RCK"
 		(shape input)
 		(at 77.47 38.1 0)
 		(fields_autoplaced yes)
@@ -2569,9 +2569,9 @@
 			)
 		)
 	)
-	(global_label "SI_T17"
+	(global_label "ARRAY-SI_T17"
 		(shape input)
-		(at 82.55 22.86 90)
+		(at 82.55 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2581,7 +2581,7 @@
 		)
 		(uuid "481f5abe-8dc6-4861-af09-4f32754049d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 13.7063 90)
+			(at 82.55 12.6781 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,6 +2669,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2743,6 +2749,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0217")
 					(unit 1)
 				)
@@ -2829,6 +2841,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS133")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2903,6 +2921,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0208")
 					(unit 1)
 				)
@@ -2985,6 +3009,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS131")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "LS131")
 					(unit 1)
 				)
@@ -3092,6 +3122,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "U89")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3166,6 +3202,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0214")
 					(unit 1)
 				)
@@ -3252,6 +3294,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS136")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3334,6 +3382,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS129")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3411,6 +3465,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3436,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 265.43 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,6 +3545,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0219")
 					(unit 1)
 				)
@@ -3592,6 +3658,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "U87")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3670,6 +3742,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS134")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "LS134")
 					(unit 1)
 				)
@@ -3756,6 +3834,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS132")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3834,6 +3918,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS135")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "LS135")
 					(unit 1)
 				)
@@ -3941,6 +4031,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "U88")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4015,6 +4111,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0211")
 					(unit 1)
 				)
@@ -4097,6 +4199,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4175,6 +4283,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "C33")
 					(unit 1)
 				)
@@ -4303,6 +4417,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "U86")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4377,6 +4497,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0213")
 					(unit 1)
 				)
@@ -4459,6 +4585,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4484,7 +4616,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+20V"
 			(at 163.83 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,6 +4665,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0215")
 					(unit 1)
 				)
@@ -4640,6 +4778,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "U90")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4718,6 +4862,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4792,6 +4942,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "#PWR0218")
 					(unit 1)
 				)
@@ -4878,6 +5034,12 @@
 					(unit 1)
 				)
 			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4956,6 +5118,12 @@
 		(instances
 			(project "link"
 				(path "/6ee95b48-71d5-47eb-a0d0-d981eaeb0064/a76389a8-a862-4faa-8be3-23f8eb0f86df"
+					(reference "LS130")
+					(unit 1)
+				)
+			)
+			(project "main_array_board"
+				(path "/99c586a7-f027-4c7b-a635-6f953b4b7a4a/a76389a8-a862-4faa-8be3-23f8eb0f86df"
 					(reference "LS130")
 					(unit 1)
 				)
