@@ -9,4 +9,6 @@
 	(lib (name "FPGA_lattice_custom") (type "KiCad") (uri "${KIPRJMOD}/../../lib/LFE5U-25F-7TG144C/LFE5U-25F-7TG144C.pretty/FPGA_lattice_custom.pretty") (options "") (descr ""))
 	(lib (name "FPGA_lattice_custom-new") (type "KiCad") (uri "${KIPRJMOD}/../../lib/LFE5U-25F-7TG144C/FPGA_lattice_custom.pretty") (options "") (descr ""))
 	(lib (name "SPI_flash_MX25") (type "KiCad") (uri "${KIPRJMOD}/../../lib/spi flash MX25L3206E/SPI_flash_MX25.pretty") (options "") (descr ""))
+	(lib (name "MIC4127ML-TRpretty") (type "KiCad") (uri "/home/pkeinix/Documents/tesis-temporary/atg-client/hardware/libraries/MIC4127YML_TR/MIC4127ML-TRpretty.pretty") (options "") (descr ""))
+	(lib (name "connector_Header") (type "KiCad") (uri "/home/pkeinix/Documents/tesis-temporary/atg-client/hardware/libraries/connector_male_tht_2x20/connector_Header.pretty") (options "") (descr ""))
 )
