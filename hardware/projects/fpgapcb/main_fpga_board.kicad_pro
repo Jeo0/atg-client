@@ -488,6 +488,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -785,7 +786,7 @@
         "uuid": "9c5ef320-ed14-4fbf-afec-63494d4e827d"
       }
     ],
-    "used_designators": "#PWR1-365,#PWR367-379,#PWR381-450,#PWR453-454,#PWR457-495,#PWR498-523,L1-3,LS1-256,FB1,SW1,#FLG1-5,R1-3,R14-35,J1-11,C1-75,C84-108,D1-13,Ue1,U1-6,U8-166",
+    "used_designators": "#FLG1-5,#PWR1-365,#PWR367-379,#PWR381-450,#PWR453-454,#PWR457-495,#PWR498-523,C1-75,C84-108,D1-13,FB1,J1-11,L1-3,LS1-256,R1-3,R14-35,SW1,U1-6,U8-166,Ue1",
     "variants": [
       {
         "description": "asdf",
